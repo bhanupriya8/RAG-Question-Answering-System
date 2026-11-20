@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><title>RAG evaluation</title>
+<style>body{font-family:system-ui;max-width:1000px;margin:2rem auto;padding:0 1rem}
+table{border-collapse:collapse;width:100%;margin:1rem 0}td,th{border:1px solid #ccc;padding:6px 10px;text-align:left}
+th{background:#f0f0f0}</style></head><body>
+<h1>RAG evaluation results</h1>
+<p>18 questions (14 answerable, 4 unanswerable)</p>
+<h2>Retrieval (top-4)</h2>
+<table><tr><th>Method</th><th>Hit@4</th><th>MRR</th></tr>
+<tr><td>Dense only</td><td>100%</td><td>0.70</td></tr>
+<tr><td>Hybrid (BM25 + dense)</td><td>100%</td><td>0.74</td></tr></table>
+<h2>Confidence calibration</h2>
+<table><tr><th>Check</th><th>Result</th></tr>
+<tr><td>Answerable questions not flagged LOW</td><td>100%</td></tr>
+<tr><td>Unanswerable questions flagged LOW</td><td>100%</td></tr></table>
+
+<h2>Answer quality (LLM-based)</h2>
+<p style=""><b>Based on 18 of 18 questions | model: Gemini:gemini-3.8-flash</b></p>
+<table><tr><th>Metric</th><th>Single pass</th><th>Agentic</th></tr>
+<tr><td>Key-fact coverage</td><td>94%</td><td>98%</td></tr>
+<tr><td>Citation precision</td><td>71%</td><td>79%</td></tr>
+<tr><td>Avg LLM calls</td><td>0.78</td><td>0.83</td></tr>
+<tr><td>Avg latency (s) *</td><td>68.82</td><td>92.14</td></tr>
+</table>
+<p><small>* Latency includes API throttling and retry waits, so it is not a reliable speed comparison.</small></p>
+<h2>Per-question answers</h2>
+<table><tr><th>Question</th><th>Coverage (single)</th><th>Coverage (agentic)</th>
+<th>Cite prec. (single)</th><th>Cite prec. (agentic)</th><th>Calls (single)</th><th>Calls (agentic)</th></tr><tr><td>how does the CYK algorithm parse a sentence?</td><td>100%</td><td>100%</td><td>67%</td><td>67%</td><td>1</td><td>1</td></tr><tr><td>what are the limitations of CYK?</td><td>100%</td><td>100%</td><td>50%</td><td>50%</td><td>1</td><td>1</td></tr><tr><td>what does the Earley predictor do?</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>1</td><td>1</td></tr><tr><td>what are the three Earley operations?</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>1</td><td>1</td></tr><tr><td>does Earley parsing require Chomsky Normal Form?</td><td>100%</td><td>100%</td><td>50%</td><td>50%</td><td>1</td><td>1</td></tr><tr><td>explain top-down parsing and also what the Earley predictor does</td><td>50%</td><td>100%</td><td>50%</td><td>100%</td><td>1</td><td>2</td></tr><tr><td>what are the advantages and limitations of CYK, and how does Earley overcome them?</td><td>67%</td><td>67%</td><td>67%</td><td>100%</td><td>1</td><td>1</td></tr><tr><td>how is CYK different from Earley?</td><td>100%</td><td>100%</td><td>67%</td><td>67%</td><td>1</td><td>1</td></tr><tr><td>what is the capital of France?</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>0</td><td>0</td></tr><tr><td>how do I train a convolutional neural network?</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>0</td><td>0</td></tr><tr><td>who won the 2018 football world cup?</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>0</td><td>0</td></tr><tr><td>what are the stages of NLP?</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>1</td><td>1</td></tr><tr><td>what are the types of finite automata?</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>1</td><td>1</td></tr><tr><td>what are the major challenges in NLP?</td><td>100%</td><td>100%</td><td>67%</td><td>67%</td><td>1</td><td>1</td></tr><tr><td>what are common POS tags?</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>1</td><td>1</td></tr><tr><td>what are the applications of POS tagging?</td><td>100%</td><td>100%</td><td>50%</td><td>50%</td><td>1</td><td>1</td></tr><tr><td>how do I write a list comprehension in Python?</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>0</td><td>0</td></tr><tr><td>what is the difference between stemming and lemmatization?</td><td>100%</td><td>100%</td><td>33%</td><td>50%</td><td>1</td><td>1</td></tr></table>
+<h2>Per-question retrieval</h2>
+<table><tr><th>Question</th><th>Dense rank</th><th>Hybrid rank</th><th>Confidence</th><th>Top cosine</th></tr><tr><td>how does the CYK algorithm parse a sentence?</td><td>1</td><td>1</td><td>high</td><td>0.72</td></tr><tr><td>what are the limitations of CYK?</td><td>4</td><td>4</td><td>medium</td><td>0.431</td></tr><tr><td>what does the Earley predictor do?</td><td>2</td><td>2</td><td>high</td><td>0.457</td></tr><tr><td>what are the three Earley operations?</td><td>2</td><td>2</td><td>medium</td><td>0.407</td></tr><tr><td>does Earley parsing require Chomsky Normal Form?</td><td>4</td><td>3</td><td>high</td><td>0.667</td></tr><tr><td>explain top-down parsing and also what the Earley predictor does</td><td>2</td><td>1</td><td>high</td><td>0.667</td></tr><tr><td>what are the advantages and limitations of CYK, and how does Earley overcome them?</td><td>1</td><td>1</td><td>high</td><td>0.536</td></tr><tr><td>how is CYK different from Earley?</td><td>1</td><td>1</td><td>high</td><td>0.56</td></tr><tr><td>what is the capital of France?</td><td>-</td><td>-</td><td>low</td><td>0.096</td></tr><tr><td>how do I train a convolutional neural network?</td><td>-</td><td>-</td><td>low</td><td>0.134</td></tr><tr><td>who won the 2018 football world cup?</td><td>-</td><td>-</td><td>low</td><td>0.105</td></tr><tr><td>what are the stages of NLP?</td><td>1</td><td>1</td><td>high</td><td>0.614</td></tr><tr><td>what are the types of finite automata?</td><td>2</td><td>2</td><td>high</td><td>0.668</td></tr><tr><td>what are the major challenges in NLP?</td><td>1</td><td>1</td><td>high</td><td>0.65</td></tr><tr><td>what are common POS tags?</td><td>1</td><td>1</td><td>high</td><td>0.549</td></tr><tr><td>what are the applications of POS tagging?</td><td>1</td><td>1</td><td>high</td><td>0.638</td></tr><tr><td>what is the difference between stemming and lemmatization?</td><td>3</td><td>3</td><td>high</td><td>0.64</td></tr><tr><td>how do I write a list comprehension in Python?</td><td>-</td><td>-</td><td>low</td><td>0.298</td></tr></table>
+</body></html>

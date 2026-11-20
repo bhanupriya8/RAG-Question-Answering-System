@@ -1,0 +1,924 @@
+[
+  {
+    "id": "Q001",
+    "q": "What is Natural Language Processing (NLP)?",
+    "answerable": true,
+    "gold_answer": "NLP is a branch of AI that enables computers to understand, interpret, process, and generate human languages.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 1
+      }
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "understand",
+      "interpret",
+      "process",
+      "generate"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q002",
+    "q": "Which three fields does NLP combine?",
+    "answerable": true,
+    "gold_answer": "Computer Science, Artificial Intelligence, and Linguistics.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 1
+      }
+    ],
+    "keywords": [
+      "computer science",
+      "artificial intelligence",
+      "linguistics"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q003",
+    "q": "Name four applications of NLP listed in the notes.",
+    "answerable": true,
+    "gold_answer": "Examples include machine translation, chatbots and virtual assistants, sentiment analysis, speech recognition, text summarization, information retrieval, question answering, and email spam detection.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 1
+      }
+    ],
+    "keywords": [
+      "machine translation",
+      "chatbots",
+      "sentiment analysis",
+      "speech recognition"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q004",
+    "q": "What is lexical ambiguity? Give the example from the notes.",
+    "answerable": true,
+    "gold_answer": "A word may have multiple meanings; 'bank' can mean a river bank or a financial institution.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 1
+      }
+    ],
+    "keywords": [
+      "multiple meanings",
+      "bank of a river",
+      "money transactions"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q005",
+    "q": "What is syntactic ambiguity? Use the example given in the PDF.",
+    "answerable": true,
+    "gold_answer": "A sentence can have multiple grammatical structures. 'I saw the man with a telescope' is ambiguous about who has the telescope.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 2
+      }
+    ],
+    "keywords": [
+      "multiple grammatical structures",
+      "telescope"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q006",
+    "q": "What is semantic ambiguity? Give the example used in the notes.",
+    "answerable": true,
+    "gold_answer": "The meaning is not always clear; 'The chicken is ready to eat' is ambiguous about who is eating.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 2
+      }
+    ],
+    "keywords": [
+      "meaning",
+      "chicken",
+      "eating"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q007",
+    "q": "Explain pragmatic ambiguity with the salt example.",
+    "answerable": true,
+    "gold_answer": "The meaning depends on context. 'Can you pass the salt?' is a request, not a question about ability.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 2
+      }
+    ],
+    "keywords": [
+      "context",
+      "request",
+      "pass the salt"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q008",
+    "q": "What is the world-knowledge challenge in NLP? Give the example from the PDF.",
+    "answerable": true,
+    "gold_answer": "Humans use common sense that computers may struggle with. In 'John dropped the glass and it broke', 'it' refers to the glass.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 2
+      }
+    ],
+    "keywords": [
+      "common sense",
+      "glass",
+      "it refers"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q009",
+    "q": "Give three differences between programming languages and natural languages from the comparison table.",
+    "answerable": true,
+    "gold_answer": "Programming-language rules are strict, ambiguity is almost absent, and syntax is fixed; natural-language rules are flexible, ambiguity is high, and syntax varies.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 3
+      }
+    ],
+    "keywords": [
+      "strict",
+      "flexible",
+      "ambiguity",
+      "fixed",
+      "variable"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q010",
+    "q": "Why are natural languages not completely regular according to the notes?",
+    "answerable": true,
+    "gold_answer": "They contain recursive structures, long-distance dependencies, and nested patterns.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 3
+      },
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 4
+      }
+    ],
+    "keywords": [
+      "recursive structures",
+      "long-distance dependencies",
+      "nested patterns"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q011",
+    "q": "What are the four components of a finite automaton listed in the PDF?",
+    "answerable": true,
+    "gold_answer": "States, transitions, a start state, and a final state.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 4
+      }
+    ],
+    "keywords": [
+      "states",
+      "transitions",
+      "start state",
+      "final state"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q012",
+    "q": "Name the two types of finite automata mentioned in Unit-I.",
+    "answerable": true,
+    "gold_answer": "DFA (Deterministic Finite Automata) and NFA (Non-deterministic Finite Automata).",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 5
+      }
+    ],
+    "keywords": [
+      "dfa",
+      "nfa"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q013",
+    "q": "List the five stages or levels in the NLP pipeline.",
+    "answerable": true,
+    "gold_answer": "Lexical analysis, syntactic analysis, semantic analysis, discourse integration, and pragmatic analysis.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 5
+      },
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 6
+      }
+    ],
+    "keywords": [
+      "lexical",
+      "syntactic",
+      "semantic",
+      "discourse",
+      "pragmatic"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q014",
+    "q": "What is tokenization, and what types are listed?",
+    "answerable": true,
+    "gold_answer": "Tokenization splits text into smaller units called tokens. The types listed are word, sentence, and character tokenization.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 8
+      }
+    ],
+    "keywords": [
+      "smaller units",
+      "word tokenization",
+      "sentence tokenization",
+      "character tokenization"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q015",
+    "q": "Differentiate stemming and lemmatization using the examples in the PDF.",
+    "answerable": true,
+    "gold_answer": "Stemming removes prefixes or suffixes and may produce an invalid stem, e.g. Studies → Studi. Lemmatization converts a word to its dictionary form, e.g. Studies → Study.",
+    "gold_sources": [
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 9
+      },
+      {
+        "doc": "NLP Unit–I (1).pdf",
+        "page": 10
+      }
+    ],
+    "keywords": [
+      "studi",
+      "study",
+      "dictionary form",
+      "prefixes"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q016",
+    "q": "What is parsing in NLP?",
+    "answerable": true,
+    "gold_answer": "Parsing algorithms analyze the grammatical structure of a sentence according to a grammar, usually producing a parse tree.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 1
+      }
+    ],
+    "keywords": [
+      "grammatical structure",
+      "grammar",
+      "parse tree"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q017",
+    "q": "What is recursive descent parsing, and in which direction does it work?",
+    "answerable": true,
+    "gold_answer": "It is a top-down technique that starts from the start symbol S and recursively expands grammar rules toward the input words.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 1
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 2
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 4
+      }
+    ],
+    "keywords": [
+      "top-down",
+      "start symbol",
+      "expands"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q018",
+    "q": "State two limitations of recursive descent parsing.",
+    "answerable": true,
+    "gold_answer": "It can have problems with left-recursive grammars and may involve backtracking.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 2
+      }
+    ],
+    "keywords": [
+      "left-recursive",
+      "backtracking"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q019",
+    "q": "What are the two main operations in shift-reduce parsing?",
+    "answerable": true,
+    "gold_answer": "Shift moves an input symbol onto the stack; reduce replaces symbols on the stack using a grammar rule.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 3
+      }
+    ],
+    "keywords": [
+      "shift",
+      "stack",
+      "reduce",
+      "grammar rule"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q020",
+    "q": "Explain the difference between top-down and bottom-up parsing.",
+    "answerable": true,
+    "gold_answer": "Top-down starts with S and expands toward words; bottom-up starts with words, builds constituents such as NP and VP, and reaches S.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 4
+      }
+    ],
+    "keywords": [
+      "start with s",
+      "words",
+      "np",
+      "vp"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q021",
+    "q": "What does the CYK algorithm determine, and what grammar form does it require?",
+    "answerable": true,
+    "gold_answer": "CYK determines whether a sentence can be generated by a Context-Free Grammar in Chomsky Normal Form (CNF).",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 5
+      }
+    ],
+    "keywords": [
+      "context-free grammar",
+      "chomsky normal form",
+      "cnf"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q022",
+    "q": "How does the CYK algorithm build its table?",
+    "answerable": true,
+    "gold_answer": "It works bottom-up, starting with individual words, then spans of two words, three words, and progressively longer spans.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 5
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 6
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 7
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 8
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 9
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 10
+      }
+    ],
+    "keywords": [
+      "bottom-up",
+      "individual words",
+      "two-word",
+      "three-word"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q023",
+    "q": "When is the example sentence 'The ram eats the mangoes' accepted by the CYK algorithm?",
+    "answerable": true,
+    "gold_answer": "It is accepted when S appears in the table entry for the complete five-word span, [1,5].",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 8
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 9
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 10
+      }
+    ],
+    "keywords": [
+      "[1,5]",
+      "s",
+      "accepted"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q024",
+    "q": "Give two advantages and two limitations of CYK listed in the notes.",
+    "answerable": true,
+    "gold_answer": "Advantages: it uses dynamic programming and handles ambiguous grammars. Limitations: it requires CNF and can be computationally expensive for long sentences.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 10
+      }
+    ],
+    "keywords": [
+      "dynamic programming",
+      "ambiguous grammars",
+      "cnf",
+      "computationally expensive"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q025",
+    "q": "What is Earley parsing?",
+    "answerable": true,
+    "gold_answer": "Earley parsing is a dynamic-programming, chart-based algorithm that processes a sentence from left to right and does not require CNF.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 11
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 21
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 22
+      }
+    ],
+    "keywords": [
+      "chart-based",
+      "left to right",
+      "does not require cnf"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q026",
+    "q": "What does the dot represent in an Earley item?",
+    "answerable": true,
+    "gold_answer": "The dot shows how much of a grammar rule has already been recognized.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 12
+      }
+    ],
+    "keywords": [
+      "dot",
+      "recognized",
+      "grammar rule"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q027",
+    "q": "Name and explain the three Earley operations.",
+    "answerable": true,
+    "gold_answer": "Predictor predicts productions when the dot is before a non-terminal; Scanner matches the next input terminal and moves the dot; Completer advances a rule waiting for a completed constituent.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 12
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 20
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 21
+      }
+    ],
+    "keywords": [
+      "predictor",
+      "scanner",
+      "completer"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q028",
+    "q": "What does the Predictor do in Earley parsing?",
+    "answerable": true,
+    "gold_answer": "If the dot is before a non-terminal, it predicts that non-terminal's possible productions.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 12
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 20
+      }
+    ],
+    "keywords": [
+      "dot",
+      "non-terminal",
+      "productions"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q029",
+    "q": "What does the Scanner do in Earley parsing?",
+    "answerable": true,
+    "gold_answer": "If the dot is before a terminal matching the next input word, the Scanner moves the dot past that terminal.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 13
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 20
+      }
+    ],
+    "keywords": [
+      "terminal",
+      "next input word",
+      "moves the dot"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q030",
+    "q": "What does the Completer do in Earley parsing?",
+    "answerable": true,
+    "gold_answer": "When a rule is completed, the Completer uses it to advance a rule that was waiting for that constituent.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 14
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 15
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 20
+      }
+    ],
+    "keywords": [
+      "completed",
+      "advance",
+      "waiting"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q031",
+    "q": "What is a Recursive Transition Network (RTN)?",
+    "answerable": true,
+    "gold_answer": "An RTN represents grammar rules using a network or graph of states.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 22
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 23
+      }
+    ],
+    "keywords": [
+      "network",
+      "graph",
+      "states"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q032",
+    "q": "What is a PCFG?",
+    "answerable": true,
+    "gold_answer": "A Probabilistic Context-Free Grammar is a CFG in which each grammar rule is assigned a probability.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 23
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 24
+      }
+    ],
+    "keywords": [
+      "context-free grammar",
+      "rule",
+      "probability"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q033",
+    "q": "How does a PCFG help with an ambiguous sentence?",
+    "answerable": true,
+    "gold_answer": "It assigns probabilities to possible grammar rules or parse trees and helps select the most probable parse.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 24
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 26
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 30
+      }
+    ],
+    "keywords": [
+      "probabilities",
+      "ambiguous",
+      "most probable parse"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "Q034",
+    "q": "What is statistical parsing, and what information does it use?",
+    "answerable": true,
+    "gold_answer": "Statistical parsing uses statistical or probabilistic information learned from a corpus to determine the most likely syntactic structure.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 25
+      },
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 27
+      }
+    ],
+    "keywords": [
+      "statistical",
+      "probabilistic",
+      "corpus",
+      "syntactic structure"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q035",
+    "q": "What is a treebank?",
+    "answerable": true,
+    "gold_answer": "A treebank is a corpus containing sentences along with their syntactic structures.",
+    "gold_sources": [
+      {
+        "doc": "Parsing Algorithms in NLP (2).pdf",
+        "page": 29
+      }
+    ],
+    "keywords": [
+      "corpus",
+      "sentences",
+      "syntactic structures"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "Q036",
+    "q": "What is the exact worst-case time complexity of the CYK algorithm?",
+    "answerable": false,
+    "gold_answer": "The PDFs do not state an exact worst-case time complexity for CYK.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q037",
+    "q": "What is the exact worst-case time complexity of Earley parsing?",
+    "answerable": false,
+    "gold_answer": "The PDFs do not provide an exact worst-case time complexity for Earley parsing.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q038",
+    "q": "How do you convert an arbitrary CFG into Chomsky Normal Form step by step?",
+    "answerable": false,
+    "gold_answer": "The PDFs say CYK requires CNF but do not explain a conversion procedure.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q039",
+    "q": "How are epsilon (empty-string) productions handled by the CYK algorithm?",
+    "answerable": false,
+    "gold_answer": "The PDFs do not discuss epsilon productions or their handling in CYK.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q040",
+    "q": "What smoothing technique should be used for unseen PCFG rules?",
+    "answerable": false,
+    "gold_answer": "The PDFs describe rule probabilities but do not specify a smoothing technique.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q041",
+    "q": "Which named treebank was used to train the statistical parser in the examples?",
+    "answerable": false,
+    "gold_answer": "The PDFs define a treebank but do not name a specific training treebank.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q042",
+    "q": "What is the exact training dataset size used for the neural parsing models?",
+    "answerable": false,
+    "gold_answer": "The PDFs mention large datasets but give no dataset size.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q043",
+    "q": "Which Transformer architecture is used for neural constituency parsing?",
+    "answerable": false,
+    "gold_answer": "The PDFs list Transformers generally but do not identify a specific architecture.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q044",
+    "q": "What loss function is used to train the neural dependency parser?",
+    "answerable": false,
+    "gold_answer": "The PDFs do not specify a neural parser loss function.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q045",
+    "q": "What is the numerical accuracy of the POS tagger described in Unit-I?",
+    "answerable": false,
+    "gold_answer": "The PDFs explain POS tagging but provide no accuracy measurement.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q046",
+    "q": "Which Python library should be used to implement tokenization for Hindi?",
+    "answerable": false,
+    "gold_answer": "The PDFs define tokenization but do not recommend a Python library or language-specific implementation.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q047",
+    "q": "How does a finite automaton minimize its number of states?",
+    "answerable": false,
+    "gold_answer": "The PDFs describe finite automata and their applications but do not explain state-minimization algorithms.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "test"
+  },
+  {
+    "id": "Q048",
+    "q": "What is the formal proof that natural languages are not regular?",
+    "answerable": false,
+    "gold_answer": "The PDFs give examples and characteristics but do not provide a formal proof.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  },
+  {
+    "id": "Q049",
+    "q": "Which algorithm specifically resolves the telescope attachment ambiguity in the example sentence?",
+    "answerable": false,
+    "gold_answer": "The PDFs illustrate ambiguity and probabilistic parsing but do not name a specific attachment-resolution algorithm.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  },
+  {
+    "id": "Q050",
+    "q": "What are the exact numerical probabilities for both parses of 'I saw the man with a telescope' in a real corpus?",
+    "answerable": false,
+    "gold_answer": "The PDFs give illustrative probabilities but no corpus-derived values for that sentence.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  },
+  {
+    "id": "Q051",
+    "q": "How does Earley parsing handle nullable non-terminals in its chart?",
+    "answerable": false,
+    "gold_answer": "The PDFs explain Predictor, Scanner, and Completer but do not discuss nullable non-terminals.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  },
+  {
+    "id": "Q052",
+    "q": "What is the exact memory consumption of the CYK table for a sentence of 100 words?",
+    "answerable": false,
+    "gold_answer": "The PDFs do not provide memory-complexity formulas or numerical memory estimates.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  },
+  {
+    "id": "Q053",
+    "q": "Which parser is experimentally faster, CYK or Earley, on the same benchmark?",
+    "answerable": false,
+    "gold_answer": "The PDFs compare their approaches but provide no benchmark timing results.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  },
+  {
+    "id": "Q054",
+    "q": "How are sarcasm and irony detected using a neural NLP model?",
+    "answerable": false,
+    "gold_answer": "The PDFs mention sarcasm detection as a challenge but do not describe a detection model or method.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  },
+  {
+    "id": "Q055",
+    "q": "What is the precision, recall, and F1-score of the NLP system described in these notes?",
+    "answerable": false,
+    "gold_answer": "The PDFs contain no evaluation dataset or precision, recall, or F1-score results.",
+    "gold_sources": [],
+    "keywords": [],
+    "split": "dev"
+  }
+]

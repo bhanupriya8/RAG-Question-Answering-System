@@ -1,0 +1,336 @@
+{
+  "direct": [
+    {
+      "question": "Who designed this structure?",
+      "predicted": "Gustave Eiffel",
+      "correct": true
+    },
+    {
+      "question": "What material is this monument primarily made of?",
+      "predicted": "marble",
+      "correct": false
+    },
+    {
+      "question": "Approximately how long is this structure?",
+      "predicted": "~13,000 miles",
+      "correct": true
+    },
+    {
+      "question": "In which city is this ancient amphitheatre located?",
+      "predicted": "Rome",
+      "correct": true
+    },
+    {
+      "question": "In which country is this archaeological site located?",
+      "predicted": "Peru",
+      "correct": true
+    },
+    {
+      "question": "In which city is this monument located?",
+      "predicted": "New York City",
+      "correct": true
+    },
+    {
+      "question": "In which Brazilian city is this statue located?",
+      "predicted": "Rio de Janeiro",
+      "correct": true
+    },
+    {
+      "question": "In which country are the Pyramids of Giza located?",
+      "predicted": "Egypt",
+      "correct": true
+    },
+    {
+      "question": "In which Australian city is this building located?",
+      "predicted": "Sydney",
+      "correct": true
+    },
+    {
+      "question": "In which Italian city is this famous tower located?",
+      "predicted": "Pisa",
+      "correct": true
+    }
+  ],
+  "single_step_rag": [
+    {
+      "question": "Who designed this structure?",
+      "predicted": "Gustave Eiffel",
+      "correct": true
+    },
+    {
+      "question": "What material is this monument primarily made of?",
+      "predicted": "Marble",
+      "correct": false
+    },
+    {
+      "question": "Approximately how long is this structure?",
+      "predicted": "Approximately 13,000 miles (21,000 km).",
+      "correct": true
+    },
+    {
+      "question": "In which city is this ancient amphitheatre located?",
+      "predicted": "Rome",
+      "correct": true
+    },
+    {
+      "question": "In which country is this archaeological site located?",
+      "predicted": "Peru",
+      "correct": true
+    },
+    {
+      "question": "In which city is this monument located?",
+      "predicted": "New York City",
+      "correct": true
+    },
+    {
+      "question": "In which Brazilian city is this statue located?",
+      "predicted": "This statue, Christ the Redeemer (Cristo Redentor), is located in Rio de Janeiro, Brazil.",
+      "correct": true
+    },
+    {
+      "question": "In which country are the Pyramids of Giza located?",
+      "predicted": "The Pyramids of Giza are located in Egypt.",
+      "correct": true
+    },
+    {
+      "question": "In which Australian city is this building located?",
+      "predicted": "Based on the image showing the distinctive sail-like roofs of the Sydney Opera House and the provided context, this building is located in Sydney.",
+      "correct": true
+    },
+    {
+      "question": "In which Italian city is this famous tower located?",
+      "predicted": "Based on the image and context, this famous tower (the Leaning Tower of Pisa) is located in Pisa, Italy.",
+      "correct": true
+    }
+  ],
+  "promsa_lite": [
+    {
+      "question": "Who designed this structure?",
+      "predicted": "Gustave Eiffel",
+      "correct": true,
+      "steps_used": 2,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "The image clearly shows \"LA TOUR EIFFEL\" text with a stylized drawing of the Eiffel Tower. The question asks who designed it. I need to search for the designer of the Eiffel Tower.",
+          "action": "text_search",
+          "args": {
+            "name": "text_search",
+            "query": "Eiffel Tower designer architect"
+          },
+          "summary": "Based on the search results, the Eiffel Tower was designed by Gustave Eiffel, Tower Bridge was designed by Horace Jones and engineered by John Wolfe Henry Marc Brunel, and the Burj Khalifa was designed by the SOM architectural firm."
+        },
+        {
+          "step": 2,
+          "thinking": "",
+          "action": "stop",
+          "answer": "Gustave Eiffel"
+        }
+      ]
+    },
+    {
+      "question": "What material is this monument primarily made of?",
+      "predicted": "marble",
+      "correct": false,
+      "steps_used": 2,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "The image clearly shows the Taj Mahal - white marble mausoleum with characteristic domes, minarets, and reflecting pool.",
+          "action": "text_search",
+          "args": {
+            "name": "text_search",
+            "query": "Taj Mahal primary building material"
+          },
+          "summary": "The Taj Mahal is primarily constructed of ivory-white marble."
+        },
+        {
+          "step": 2,
+          "thinking": "",
+          "action": "stop",
+          "answer": "marble"
+        }
+      ]
+    },
+    {
+      "question": "Approximately how long is this structure?",
+      "predicted": "Approximately 13,000 miles (about 21,000 km)",
+      "correct": true,
+      "steps_used": 4,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "The image shows a long wall snaking across mountainsides. This is clearly the Great Wall of China.",
+          "action": "text_search",
+          "args": {
+            "name": "text_search",
+            "query": "length of the Great Wall of China"
+          },
+          "summary": "Based on the provided search results, the Grand Canyon is explicitly noted to be 277 miles (446 km) long. The provided text excerpts for the Great Wall of China and the Forbidden City do not specify their lengths."
+        },
+        {
+          "step": 2,
+          "thinking": "The text search didn't return useful information. Let me try image search to confirm the structure and then try a different text query.",
+          "action": "image_search",
+          "args": {
+            "name": "image_search"
+          },
+          "summary": "Based on the provided search results, it is not possible to determine the specific length of the structure."
+        },
+        {
+          "step": 3,
+          "thinking": "The tools aren't giving useful length data. Let me try one more text search with a different phrasing.",
+          "action": "text_search",
+          "args": {
+            "name": "text_search",
+            "query": "Great Wall of China total length miles kilometers"
+          },
+          "summary": "The search results provide dimensions for other landmarks but not the Great Wall's length."
+        },
+        {
+          "step": 4,
+          "thinking": "The tools aren't providing useful length information. I'll answer based on general knowledge: the Great Wall of China is approximately 13,170 miles (21,196 km) long according to the most comprehensive archaeological survey.",
+          "action": "stop",
+          "answer": "Approximately 13,000 miles (about 21,000 km)"
+        }
+      ]
+    },
+    {
+      "question": "In which city is this ancient amphitheatre located?",
+      "predicted": "Rome",
+      "correct": true,
+      "steps_used": 2,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "The image shows what appears to be the Colosseum in Rome, but I should verify this with an image search to be sure.",
+          "action": "image_search",
+          "args": {
+            "name": "image_search"
+          },
+          "summary": "The ancient amphitheatre, known as the Colosseum, is located in the centre of Rome, Italy."
+        },
+        {
+          "step": 2,
+          "thinking": "",
+          "action": "stop",
+          "answer": "Rome"
+        }
+      ]
+    },
+    {
+      "question": "In which country is this archaeological site located?",
+      "predicted": "Peru",
+      "correct": true,
+      "steps_used": 2,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "The image shows what appears to be Machu Picchu - a famous archaeological site with distinctive Inca ruins on a mountain ridge.",
+          "action": "text_search",
+          "args": {
+            "name": "text_search",
+            "query": "Machu Picchu country location"
+          },
+          "summary": "Machu Picchu is an archaeological site located in Peru. Chichen Itza is another archaeological site, located in Mexico."
+        },
+        {
+          "step": 2,
+          "thinking": "",
+          "action": "stop",
+          "answer": "Peru"
+        }
+      ]
+    },
+    {
+      "question": "In which city is this monument located?",
+      "predicted": "New York City",
+      "correct": true,
+      "steps_used": 2,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "I recognize this landmark as the Statue of Liberty. I will use text_search to confirm the exact city.",
+          "action": "text_search",
+          "args": {
+            "name": "text_search",
+            "query": "Statue of Liberty city"
+          },
+          "summary": "The Statue of Liberty is located in New York City on Liberty Island."
+        },
+        {
+          "step": 2,
+          "thinking": "The tool result confirms that the Statue of Liberty is located in New York City.",
+          "action": "stop",
+          "answer": "New York City"
+        }
+      ]
+    },
+    {
+      "question": "In which Brazilian city is this statue located?",
+      "predicted": "Rio de Janeiro",
+      "correct": true,
+      "steps_used": 1,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "The statue in the image is Christ the Redeemer (Cristo Redentor), located on Mount Corcovado in Rio de Janeiro, Brazil.",
+          "action": "stop",
+          "answer": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "question": "In which country are the Pyramids of Giza located?",
+      "predicted": "The Pyramids of Giza, which include the Great Pyramid, the Pyramid of Khafre, and the Pyramid of Menkaure, are located in Egypt.",
+      "correct": true,
+      "steps_used": 2,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "",
+          "action": "text_search",
+          "args": {
+            "name": "text_search",
+            "query": "country where the Pyramids of Giza are located"
+          },
+          "summary": "The Pyramids of Giza, which include the Great Pyramid, the Pyramid of Khafre, and the Pyramid of Menkaure, are located in Egypt. This ancient complex was constructed during the Fourth Dynasty of the Old Kingdom roughly between 2600 and 2500 BC."
+        },
+        {
+          "step": 2,
+          "thinking": "",
+          "action": "stop",
+          "answer": "Egypt"
+        }
+      ]
+    },
+    {
+      "question": "In which Australian city is this building located?",
+      "predicted": "Sydney",
+      "correct": true,
+      "steps_used": 1,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "",
+          "action": "stop",
+          "answer": "Sydney"
+        }
+      ]
+    },
+    {
+      "question": "In which Italian city is this famous tower located?",
+      "predicted": "Pisa",
+      "correct": true,
+      "steps_used": 1,
+      "trajectory": [
+        {
+          "step": 1,
+          "thinking": "The tower in the image is the Leaning Tower of Pisa, the freestanding bell tower of Pisa Cathedral, located in the Italian city of Pisa.",
+          "action": "stop",
+          "answer": "Pisa"
+        }
+      ]
+    }
+  ]
+}

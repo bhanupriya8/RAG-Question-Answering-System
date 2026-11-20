@@ -1,0 +1,1075 @@
+{
+  "dataset": "rag_questions_v2.json",
+  "k": 4,
+  "total_questions": 55,
+  "answerable": 35,
+  "unanswerable": 20,
+  "splits": {
+    "dev": {
+      "total_questions": 22,
+      "answerable": 14,
+      "unanswerable": 8,
+      "retrieval": {
+        "dense": {
+          "questions": 14,
+          "hit_at_4": 0.7857142857142857,
+          "mrr": 0.6462585034013605,
+          "missed_ids": [
+            "Q021",
+            "Q026",
+            "Q028"
+          ]
+        },
+        "bm25": {
+          "questions": 14,
+          "hit_at_4": 0.7857142857142857,
+          "mrr": 0.6507326007326008,
+          "missed_ids": [
+            "Q016",
+            "Q021",
+            "Q024"
+          ]
+        },
+        "hybrid": {
+          "questions": 14,
+          "hit_at_4": 0.9285714285714286,
+          "mrr": 0.7088744588744589,
+          "missed_ids": [
+            "Q021"
+          ]
+        }
+      },
+      "confidence": {
+        "answerable_not_low_rate": 1.0,
+        "unanswerable_low_rate": 0.0
+      }
+    },
+    "test": {
+      "total_questions": 33,
+      "answerable": 21,
+      "unanswerable": 12,
+      "retrieval": {
+        "dense": {
+          "questions": 21,
+          "hit_at_4": 0.7619047619047619,
+          "mrr": 0.6375283446712018,
+          "missed_ids": [
+            "Q018",
+            "Q027",
+            "Q029",
+            "Q030",
+            "Q035"
+          ]
+        },
+        "bm25": {
+          "questions": 21,
+          "hit_at_4": 0.9047619047619048,
+          "mrr": 0.765079365079365,
+          "missed_ids": [
+            "Q002",
+            "Q029"
+          ]
+        },
+        "hybrid": {
+          "questions": 21,
+          "hit_at_4": 0.9047619047619048,
+          "mrr": 0.7873015873015874,
+          "missed_ids": [
+            "Q029",
+            "Q030"
+          ]
+        }
+      },
+      "confidence": {
+        "answerable_not_low_rate": 1.0,
+        "unanswerable_low_rate": 0.16666666666666666
+      }
+    }
+  },
+  "all_questions": {
+    "total_questions": 55,
+    "answerable": 35,
+    "unanswerable": 20,
+    "retrieval": {
+      "dense": {
+        "questions": 35,
+        "hit_at_4": 0.7714285714285715,
+        "mrr": 0.6410204081632653,
+        "missed_ids": [
+          "Q018",
+          "Q021",
+          "Q026",
+          "Q027",
+          "Q028",
+          "Q029",
+          "Q030",
+          "Q035"
+        ]
+      },
+      "bm25": {
+        "questions": 35,
+        "hit_at_4": 0.8571428571428571,
+        "mrr": 0.7193406593406594,
+        "missed_ids": [
+          "Q002",
+          "Q016",
+          "Q021",
+          "Q024",
+          "Q029"
+        ]
+      },
+      "hybrid": {
+        "questions": 35,
+        "hit_at_4": 0.9142857142857143,
+        "mrr": 0.7559307359307359,
+        "missed_ids": [
+          "Q021",
+          "Q029",
+          "Q030"
+        ]
+      }
+    },
+    "confidence": {
+      "answerable_not_low_rate": 1.0,
+      "unanswerable_low_rate": 0.1
+    }
+  },
+  "details": [
+    {
+      "id": "Q001",
+      "q": "What is Natural Language Processing (NLP)?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 1
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.7474
+    },
+    {
+      "id": "Q002",
+      "q": "Which three fields does NLP combine?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 1
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 5,
+      "hybrid_rank": 2,
+      "confidence": "high",
+      "top_dense_cosine": 0.5671
+    },
+    {
+      "id": "Q003",
+      "q": "Name four applications of NLP listed in the notes.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 1
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 3,
+      "hybrid_rank": 3,
+      "confidence": "high",
+      "top_dense_cosine": 0.5934
+    },
+    {
+      "id": "Q004",
+      "q": "What is lexical ambiguity? Give the example from the notes.",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 1
+        }
+      ],
+      "dense_rank": 2,
+      "bm25_rank": 2,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.6121
+    },
+    {
+      "id": "Q005",
+      "q": "What is syntactic ambiguity? Use the example given in the PDF.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 2
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.6268
+    },
+    {
+      "id": "Q006",
+      "q": "What is semantic ambiguity? Give the example used in the notes.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 2
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.6215
+    },
+    {
+      "id": "Q007",
+      "q": "Explain pragmatic ambiguity with the salt example.",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 2
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.4995
+    },
+    {
+      "id": "Q008",
+      "q": "What is the world-knowledge challenge in NLP? Give the example from the PDF.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 2
+        }
+      ],
+      "dense_rank": 4,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5606
+    },
+    {
+      "id": "Q009",
+      "q": "Give three differences between programming languages and natural languages from the comparison table.",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 3
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 2,
+      "hybrid_rank": 2,
+      "confidence": "high",
+      "top_dense_cosine": 0.5033
+    },
+    {
+      "id": "Q010",
+      "q": "Why are natural languages not completely regular according to the notes?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 3
+        },
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 4
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5039
+    },
+    {
+      "id": "Q011",
+      "q": "What are the four components of a finite automaton listed in the PDF?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 4
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5102
+    },
+    {
+      "id": "Q012",
+      "q": "Name the two types of finite automata mentioned in Unit-I.",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 5
+        }
+      ],
+      "dense_rank": 2,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5643
+    },
+    {
+      "id": "Q013",
+      "q": "List the five stages or levels in the NLP pipeline.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 5
+        },
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 6
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5315
+    },
+    {
+      "id": "Q014",
+      "q": "What is tokenization, and what types are listed?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 8
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.6302
+    },
+    {
+      "id": "Q015",
+      "q": "Differentiate stemming and lemmatization using the examples in the PDF.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 9
+        },
+        {
+          "doc": "NLP Unit–I (1).pdf",
+          "page": 10
+        }
+      ],
+      "dense_rank": 2,
+      "bm25_rank": 3,
+      "hybrid_rank": 3,
+      "confidence": "high",
+      "top_dense_cosine": 0.629
+    },
+    {
+      "id": "Q016",
+      "q": "What is parsing in NLP?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 1
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 6,
+      "hybrid_rank": 4,
+      "confidence": "high",
+      "top_dense_cosine": 0.7184
+    },
+    {
+      "id": "Q017",
+      "q": "What is recursive descent parsing, and in which direction does it work?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 1
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 2
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 4
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.6861
+    },
+    {
+      "id": "Q018",
+      "q": "State two limitations of recursive descent parsing.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 2
+        }
+      ],
+      "dense_rank": 5,
+      "bm25_rank": 4,
+      "hybrid_rank": 2,
+      "confidence": "high",
+      "top_dense_cosine": 0.6976
+    },
+    {
+      "id": "Q019",
+      "q": "What are the two main operations in shift-reduce parsing?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 3
+        }
+      ],
+      "dense_rank": 2,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.668
+    },
+    {
+      "id": "Q020",
+      "q": "Explain the difference between top-down and bottom-up parsing.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 4
+        }
+      ],
+      "dense_rank": 3,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.6782
+    },
+    {
+      "id": "Q021",
+      "q": "What does the CYK algorithm determine, and what grammar form does it require?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 5
+        }
+      ],
+      "dense_rank": 8,
+      "bm25_rank": 13,
+      "hybrid_rank": 11,
+      "confidence": "high",
+      "top_dense_cosine": 0.6852
+    },
+    {
+      "id": "Q022",
+      "q": "How does the CYK algorithm build its table?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 5
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 6
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 7
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 8
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 9
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 10
+        }
+      ],
+      "dense_rank": 3,
+      "bm25_rank": 2,
+      "hybrid_rank": 2,
+      "confidence": "high",
+      "top_dense_cosine": 0.53
+    },
+    {
+      "id": "Q023",
+      "q": "When is the example sentence 'The ram eats the mangoes' accepted by the CYK algorithm?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 8
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 9
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 10
+        }
+      ],
+      "dense_rank": 3,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.6414
+    },
+    {
+      "id": "Q024",
+      "q": "Give two advantages and two limitations of CYK listed in the notes.",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 10
+        }
+      ],
+      "dense_rank": 4,
+      "bm25_rank": 5,
+      "hybrid_rank": 2,
+      "confidence": "high",
+      "top_dense_cosine": 0.4671
+    },
+    {
+      "id": "Q025",
+      "q": "What is Earley parsing?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 11
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 21
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 22
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.7309
+    },
+    {
+      "id": "Q026",
+      "q": "What does the dot represent in an Earley item?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 12
+        }
+      ],
+      "dense_rank": 21,
+      "bm25_rank": 3,
+      "hybrid_rank": 4,
+      "confidence": "high",
+      "top_dense_cosine": 0.5476
+    },
+    {
+      "id": "Q027",
+      "q": "Name and explain the three Earley operations.",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 12
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 20
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 21
+        }
+      ],
+      "dense_rank": 5,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5472
+    },
+    {
+      "id": "Q028",
+      "q": "What does the Predictor do in Earley parsing?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 12
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 20
+        }
+      ],
+      "dense_rank": 8,
+      "bm25_rank": 3,
+      "hybrid_rank": 3,
+      "confidence": "high",
+      "top_dense_cosine": 0.6768
+    },
+    {
+      "id": "Q029",
+      "q": "What does the Scanner do in Earley parsing?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 13
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 20
+        }
+      ],
+      "dense_rank": 14,
+      "bm25_rank": 5,
+      "hybrid_rank": 6,
+      "confidence": "high",
+      "top_dense_cosine": 0.6114
+    },
+    {
+      "id": "Q030",
+      "q": "What does the Completer do in Earley parsing?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 14
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 15
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 20
+        }
+      ],
+      "dense_rank": 12,
+      "bm25_rank": 4,
+      "hybrid_rank": 5,
+      "confidence": "high",
+      "top_dense_cosine": 0.6402
+    },
+    {
+      "id": "Q031",
+      "q": "What is a Recursive Transition Network (RTN)?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 22
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 23
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "medium",
+      "top_dense_cosine": 0.4459
+    },
+    {
+      "id": "Q032",
+      "q": "What is a PCFG?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 23
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 24
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "medium",
+      "top_dense_cosine": 0.4442
+    },
+    {
+      "id": "Q033",
+      "q": "How does a PCFG help with an ambiguous sentence?",
+      "split": "dev",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 24
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 26
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 30
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5435
+    },
+    {
+      "id": "Q034",
+      "q": "What is statistical parsing, and what information does it use?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 25
+        },
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 27
+        }
+      ],
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.776
+    },
+    {
+      "id": "Q035",
+      "q": "What is a treebank?",
+      "split": "test",
+      "answerable": true,
+      "gold_sources": [
+        {
+          "doc": "Parsing Algorithms in NLP (2).pdf",
+          "page": 29
+        }
+      ],
+      "dense_rank": 12,
+      "bm25_rank": 1,
+      "hybrid_rank": 1,
+      "confidence": "high",
+      "top_dense_cosine": 0.5724
+    },
+    {
+      "id": "Q036",
+      "q": "What is the exact worst-case time complexity of the CYK algorithm?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "medium",
+      "top_dense_cosine": 0.3763
+    },
+    {
+      "id": "Q037",
+      "q": "What is the exact worst-case time complexity of Earley parsing?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.5934
+    },
+    {
+      "id": "Q038",
+      "q": "How do you convert an arbitrary CFG into Chomsky Normal Form step by step?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "medium",
+      "top_dense_cosine": 0.4453
+    },
+    {
+      "id": "Q039",
+      "q": "How are epsilon (empty-string) productions handled by the CYK algorithm?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.4587
+    },
+    {
+      "id": "Q040",
+      "q": "What smoothing technique should be used for unseen PCFG rules?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "low",
+      "top_dense_cosine": 0.34
+    },
+    {
+      "id": "Q041",
+      "q": "Which named treebank was used to train the statistical parser in the examples?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.6512
+    },
+    {
+      "id": "Q042",
+      "q": "What is the exact training dataset size used for the neural parsing models?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "medium",
+      "top_dense_cosine": 0.4486
+    },
+    {
+      "id": "Q043",
+      "q": "Which Transformer architecture is used for neural constituency parsing?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.5492
+    },
+    {
+      "id": "Q044",
+      "q": "What loss function is used to train the neural dependency parser?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.551
+    },
+    {
+      "id": "Q045",
+      "q": "What is the numerical accuracy of the POS tagger described in Unit-I?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "low",
+      "top_dense_cosine": 0.3333
+    },
+    {
+      "id": "Q046",
+      "q": "Which Python library should be used to implement tokenization for Hindi?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "medium",
+      "top_dense_cosine": 0.3996
+    },
+    {
+      "id": "Q047",
+      "q": "How does a finite automaton minimize its number of states?",
+      "split": "test",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.4736
+    },
+    {
+      "id": "Q048",
+      "q": "What is the formal proof that natural languages are not regular?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.5176
+    },
+    {
+      "id": "Q049",
+      "q": "Which algorithm specifically resolves the telescope attachment ambiguity in the example sentence?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.4529
+    },
+    {
+      "id": "Q050",
+      "q": "What are the exact numerical probabilities for both parses of 'I saw the man with a telescope' in a real corpus?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.5305
+    },
+    {
+      "id": "Q051",
+      "q": "How does Earley parsing handle nullable non-terminals in its chart?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.5842
+    },
+    {
+      "id": "Q052",
+      "q": "What is the exact memory consumption of the CYK table for a sentence of 100 words?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.4688
+    },
+    {
+      "id": "Q053",
+      "q": "Which parser is experimentally faster, CYK or Earley, on the same benchmark?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.5928
+    },
+    {
+      "id": "Q054",
+      "q": "How are sarcasm and irony detected using a neural NLP model?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "high",
+      "top_dense_cosine": 0.5022
+    },
+    {
+      "id": "Q055",
+      "q": "What is the precision, recall, and F1-score of the NLP system described in these notes?",
+      "split": "dev",
+      "answerable": false,
+      "gold_sources": [],
+      "dense_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "confidence": "medium",
+      "top_dense_cosine": 0.4454
+    }
+  ],
+  "note": "Tune retrieval weights and confidence thresholds on dev only. Do not change them after inspecting test results; if changed, create a new test set."
+}

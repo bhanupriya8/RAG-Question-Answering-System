@@ -1,0 +1,787 @@
+{
+  "dataset": "rag_questions_v2.json",
+  "total_questions": 55,
+  "k": 4,
+  "results": {
+    "dev": {
+      "dense": {
+        "questions": 14,
+        "hit_at_4": 0.7857142857142857,
+        "mrr": 0.6462585034013605,
+        "missed_ids": [
+          "Q021",
+          "Q026",
+          "Q028"
+        ]
+      },
+      "bm25": {
+        "questions": 14,
+        "hit_at_4": 0.7857142857142857,
+        "mrr": 0.6507326007326008,
+        "missed_ids": [
+          "Q016",
+          "Q021",
+          "Q024"
+        ]
+      },
+      "Current_1_0.25": {
+        "questions": 14,
+        "hit_at_4": 0.7857142857142857,
+        "mrr": 0.6589285714285714,
+        "missed_ids": [
+          "Q021",
+          "Q026",
+          "Q028"
+        ]
+      },
+      "Balanced_1_1": {
+        "questions": 14,
+        "hit_at_4": 0.8571428571428571,
+        "mrr": 0.6996031746031746,
+        "missed_ids": [
+          "Q021",
+          "Q026"
+        ]
+      },
+      "BM25_1_2": {
+        "questions": 14,
+        "hit_at_4": 0.8571428571428571,
+        "mrr": 0.7137755102040816,
+        "missed_ids": [
+          "Q021",
+          "Q026"
+        ]
+      },
+      "BM25_1_4": {
+        "questions": 14,
+        "hit_at_4": 0.9285714285714286,
+        "mrr": 0.7088744588744589,
+        "missed_ids": [
+          "Q021"
+        ]
+      }
+    },
+    "test": {
+      "dense": {
+        "questions": 21,
+        "hit_at_4": 0.7619047619047619,
+        "mrr": 0.6375283446712018,
+        "missed_ids": [
+          "Q018",
+          "Q027",
+          "Q029",
+          "Q030",
+          "Q035"
+        ]
+      },
+      "bm25": {
+        "questions": 21,
+        "hit_at_4": 0.9047619047619048,
+        "mrr": 0.765079365079365,
+        "missed_ids": [
+          "Q002",
+          "Q029"
+        ]
+      },
+      "Current_1_0.25": {
+        "questions": 21,
+        "hit_at_4": 0.9047619047619048,
+        "mrr": 0.6917989417989419,
+        "missed_ids": [
+          "Q029",
+          "Q030"
+        ]
+      },
+      "Balanced_1_1": {
+        "questions": 21,
+        "hit_at_4": 0.9047619047619048,
+        "mrr": 0.7429138321995465,
+        "missed_ids": [
+          "Q029",
+          "Q030"
+        ]
+      },
+      "BM25_1_2": {
+        "questions": 21,
+        "hit_at_4": 0.9047619047619048,
+        "mrr": 0.7607709750566893,
+        "missed_ids": [
+          "Q029",
+          "Q030"
+        ]
+      },
+      "BM25_1_4": {
+        "questions": 21,
+        "hit_at_4": 0.9047619047619048,
+        "mrr": 0.7873015873015874,
+        "missed_ids": [
+          "Q029",
+          "Q030"
+        ]
+      }
+    }
+  },
+  "details": [
+    {
+      "id": "Q001",
+      "question": "What is Natural Language Processing (NLP)?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q002",
+      "question": "Which three fields does NLP combine?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 5,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 2
+    },
+    {
+      "id": "Q003",
+      "question": "Name four applications of NLP listed in the notes.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 3,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 2,
+      "BM25_1_2_rank": 2,
+      "BM25_1_4_rank": 3
+    },
+    {
+      "id": "Q004",
+      "question": "What is lexical ambiguity? Give the example from the notes.",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 2,
+      "Current_1_0.25_rank": 2,
+      "Balanced_1_1_rank": 2,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q005",
+      "question": "What is syntactic ambiguity? Use the example given in the PDF.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q006",
+      "question": "What is semantic ambiguity? Give the example used in the notes.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q007",
+      "question": "Explain pragmatic ambiguity with the salt example.",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q008",
+      "question": "What is the world-knowledge challenge in NLP? Give the example from the PDF.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 4,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 3,
+      "Balanced_1_1_rank": 2,
+      "BM25_1_2_rank": 2,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q009",
+      "question": "Give three differences between programming languages and natural languages from the comparison table.",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 2,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 2,
+      "BM25_1_4_rank": 2
+    },
+    {
+      "id": "Q010",
+      "question": "Why are natural languages not completely regular according to the notes?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q011",
+      "question": "What are the four components of a finite automaton listed in the PDF?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q012",
+      "question": "Name the two types of finite automata mentioned in Unit-I.",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 2,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q013",
+      "question": "List the five stages or levels in the NLP pipeline.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q014",
+      "question": "What is tokenization, and what types are listed?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q015",
+      "question": "Differentiate stemming and lemmatization using the examples in the PDF.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 3,
+      "Current_1_0.25_rank": 2,
+      "Balanced_1_1_rank": 3,
+      "BM25_1_2_rank": 3,
+      "BM25_1_4_rank": 3
+    },
+    {
+      "id": "Q016",
+      "question": "What is parsing in NLP?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 6,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 2,
+      "BM25_1_4_rank": 4
+    },
+    {
+      "id": "Q017",
+      "question": "What is recursive descent parsing, and in which direction does it work?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q018",
+      "question": "State two limitations of recursive descent parsing.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 5,
+      "bm25_rank": 4,
+      "Current_1_0.25_rank": 4,
+      "Balanced_1_1_rank": 3,
+      "BM25_1_2_rank": 2,
+      "BM25_1_4_rank": 2
+    },
+    {
+      "id": "Q019",
+      "question": "What are the two main operations in shift-reduce parsing?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 2,
+      "Balanced_1_1_rank": 2,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q020",
+      "question": "Explain the difference between top-down and bottom-up parsing.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 3,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 3,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q021",
+      "question": "What does the CYK algorithm determine, and what grammar form does it require?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 8,
+      "bm25_rank": 13,
+      "Current_1_0.25_rank": 8,
+      "Balanced_1_1_rank": 9,
+      "BM25_1_2_rank": 10,
+      "BM25_1_4_rank": 11
+    },
+    {
+      "id": "Q022",
+      "question": "How does the CYK algorithm build its table?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 3,
+      "bm25_rank": 2,
+      "Current_1_0.25_rank": 3,
+      "Balanced_1_1_rank": 3,
+      "BM25_1_2_rank": 3,
+      "BM25_1_4_rank": 2
+    },
+    {
+      "id": "Q023",
+      "question": "When is the example sentence 'The ram eats the mangoes' accepted by the CYK algorithm?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 3,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 3,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q024",
+      "question": "Give two advantages and two limitations of CYK listed in the notes.",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 4,
+      "bm25_rank": 5,
+      "Current_1_0.25_rank": 3,
+      "Balanced_1_1_rank": 3,
+      "BM25_1_2_rank": 2,
+      "BM25_1_4_rank": 2
+    },
+    {
+      "id": "Q025",
+      "question": "What is Earley parsing?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q026",
+      "question": "What does the dot represent in an Earley item?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 21,
+      "bm25_rank": 3,
+      "Current_1_0.25_rank": 10,
+      "Balanced_1_1_rank": 10,
+      "BM25_1_2_rank": 7,
+      "BM25_1_4_rank": 4
+    },
+    {
+      "id": "Q027",
+      "question": "Name and explain the three Earley operations.",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 5,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 4,
+      "Balanced_1_1_rank": 3,
+      "BM25_1_2_rank": 2,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q028",
+      "question": "What does the Predictor do in Earley parsing?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 8,
+      "bm25_rank": 3,
+      "Current_1_0.25_rank": 6,
+      "Balanced_1_1_rank": 4,
+      "BM25_1_2_rank": 4,
+      "BM25_1_4_rank": 3
+    },
+    {
+      "id": "Q029",
+      "question": "What does the Scanner do in Earley parsing?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 14,
+      "bm25_rank": 5,
+      "Current_1_0.25_rank": 12,
+      "Balanced_1_1_rank": 8,
+      "BM25_1_2_rank": 7,
+      "BM25_1_4_rank": 6
+    },
+    {
+      "id": "Q030",
+      "question": "What does the Completer do in Earley parsing?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 12,
+      "bm25_rank": 4,
+      "Current_1_0.25_rank": 9,
+      "Balanced_1_1_rank": 7,
+      "BM25_1_2_rank": 6,
+      "BM25_1_4_rank": 5
+    },
+    {
+      "id": "Q031",
+      "question": "What is a Recursive Transition Network (RTN)?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q032",
+      "question": "What is a PCFG?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q033",
+      "question": "How does a PCFG help with an ambiguous sentence?",
+      "split": "dev",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q034",
+      "question": "What is statistical parsing, and what information does it use?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q035",
+      "question": "What is a treebank?",
+      "split": "test",
+      "answerable": true,
+      "dense_rank": 12,
+      "bm25_rank": 1,
+      "Current_1_0.25_rank": 1,
+      "Balanced_1_1_rank": 1,
+      "BM25_1_2_rank": 1,
+      "BM25_1_4_rank": 1
+    },
+    {
+      "id": "Q036",
+      "question": "What is the exact worst-case time complexity of the CYK algorithm?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q037",
+      "question": "What is the exact worst-case time complexity of Earley parsing?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q038",
+      "question": "How do you convert an arbitrary CFG into Chomsky Normal Form step by step?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q039",
+      "question": "How are epsilon (empty-string) productions handled by the CYK algorithm?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q040",
+      "question": "What smoothing technique should be used for unseen PCFG rules?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q041",
+      "question": "Which named treebank was used to train the statistical parser in the examples?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q042",
+      "question": "What is the exact training dataset size used for the neural parsing models?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q043",
+      "question": "Which Transformer architecture is used for neural constituency parsing?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q044",
+      "question": "What loss function is used to train the neural dependency parser?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q045",
+      "question": "What is the numerical accuracy of the POS tagger described in Unit-I?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q046",
+      "question": "Which Python library should be used to implement tokenization for Hindi?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q047",
+      "question": "How does a finite automaton minimize its number of states?",
+      "split": "test",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q048",
+      "question": "What is the formal proof that natural languages are not regular?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q049",
+      "question": "Which algorithm specifically resolves the telescope attachment ambiguity in the example sentence?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q050",
+      "question": "What are the exact numerical probabilities for both parses of 'I saw the man with a telescope' in a real corpus?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q051",
+      "question": "How does Earley parsing handle nullable non-terminals in its chart?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q052",
+      "question": "What is the exact memory consumption of the CYK table for a sentence of 100 words?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q053",
+      "question": "Which parser is experimentally faster, CYK or Earley, on the same benchmark?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q054",
+      "question": "How are sarcasm and irony detected using a neural NLP model?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    },
+    {
+      "id": "Q055",
+      "question": "What is the precision, recall, and F1-score of the NLP system described in these notes?",
+      "split": "dev",
+      "answerable": false,
+      "dense_rank": null,
+      "bm25_rank": null,
+      "Current_1_0.25_rank": null,
+      "Balanced_1_1_rank": null,
+      "BM25_1_2_rank": null,
+      "BM25_1_4_rank": null
+    }
+  ],
+  "best_hybrid_on_dev": "BM25_1_4"
+}

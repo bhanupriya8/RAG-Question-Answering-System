@@ -1,0 +1,143 @@
+
+[
+  {
+    "landmark": "Petra",
+    "image_path": "data/query_images/Petra.jpg",
+    "question": "What nickname is this ancient city known by, because of the colour of its sandstone?",
+    "expected_answer": "Rose City",
+    "support": "Rose City"
+  },
+  {
+    "landmark": "Victoria Falls",
+    "image_path": "data/query_images/Victoria_Falls.jpg",
+    "question": "What is the width of this waterfall?",
+    "expected_answer": "1,708 m",
+    "support": "1,708 m"
+  },
+  {
+    "landmark": "Uluru",
+    "image_path": "data/query_images/Uluru.jpg",
+    "question": "How far is this monolith from Alice Springs?",
+    "expected_answer": "335 km",
+    "support": "335 km"
+  },
+  {
+    "landmark": "Grand Canyon",
+    "image_path": "data/query_images/Grand_Canyon.jpg",
+    "question": "How long is this canyon?",
+    "expected_answer": "277 miles (446 km)",
+    "support": "277 miles"
+  },
+  {
+    "landmark": "CN Tower",
+    "image_path": "data/query_images/CN_Tower.jpg",
+    "question": "How tall is this communications and observation tower?",
+    "expected_answer": "553.3 m",
+    "support": "553.3-metre"
+  },
+  {
+    "landmark": "Petronas Towers",
+    "image_path": "data/query_images/Petronas_Towers.jpg",
+    "question": "How many storeys does each of these twin towers have?",
+    "expected_answer": "88",
+    "support": "88-storey"
+  },
+  {
+    "landmark": "Burj Khalifa",
+    "image_path": "data/query_images/Burj_Khalifa.jpg",
+    "question": "Which architectural firm designed this skyscraper?",
+    "expected_answer": "Skidmore, Owings & Merrill",
+    "support": "Skidmore, Owings & Merrill"
+  },
+  {
+    "landmark": "Trevi Fountain",
+    "image_path": "data/query_images/Trevi_Fountain.jpg",
+    "question": "Which architect designed this fountain?",
+    "expected_answer": "Nicola Salvi",
+    "support": "Nicola Salvi"
+  },
+  {
+    "landmark": "Tower Bridge",
+    "image_path": "data/query_images/Tower_Bridge.jpg",
+    "question": "Who designed this bridge?",
+    "expected_answer": "Horace Jones",
+    "support": "Horace Jones"
+  },
+  {
+    "landmark": "Sydney Harbour Bridge",
+    "image_path": "data/query_images/Sydney_Harbour_Bridge.jpg",
+    "question": "What nickname is this bridge known by?",
+    "expected_answer": "The Coathanger",
+    "support": "Coathanger"
+  },
+  {
+    "landmark": "Stonehenge",
+    "image_path": "data/query_images/Stonehenge.jpg",
+    "question": "Approximately how high is each of the outer standing stones?",
+    "expected_answer": "About 13 feet (4 m)",
+    "support": "around 13 feet"
+  },
+  {
+    "landmark": "Mount Rushmore",
+    "image_path": "data/query_images/Mount_Rushmore.jpg",
+    "question": "Who was the sculptor of this memorial?",
+    "expected_answer": "Gutzon Borglum",
+    "support": "Gutzon Borglum"
+  },
+  {
+    "landmark": "Hollywood Sign",
+    "image_path": "data/query_images/Hollywood_Sign.jpg",
+    "question": "In which year was the original version of this sign erected?",
+    "expected_answer": "1923",
+    "support": "erected in 1923"
+  },
+  {
+    "landmark": "Charles Bridge",
+    "image_path": "data/query_images/Charles_Bridge.jpg",
+    "question": "In which year did construction of this bridge start?",
+    "expected_answer": "1357",
+    "support": "started in 1357"
+  },
+  {
+    "landmark": "Chateau de Chambord",
+    "image_path": "data/query_images/Chateau_de_Chambord.jpg",
+    "question": "Which French king commissioned this chateau?",
+    "expected_answer": "Francis I",
+    "support": "Francis I"
+  },
+  {
+    "landmark": "Edinburgh Castle",
+    "image_path": "data/query_images/Edinburgh_Castle.jpg",
+    "question": "On which rock does this castle stand?",
+    "expected_answer": "Castle Rock",
+    "support": "Castle Rock"
+  },
+  {
+    "landmark": "Meteora",
+    "image_path": "data/query_images/Meteora.jpg",
+    "question": "In which Greek regional unit is this rock formation located?",
+    "expected_answer": "Trikala",
+    "support": "regional unit of Trikala"
+  },
+  {
+    "landmark": "Potala Palace",
+    "image_path": "data/query_images/Potala_Palace.jpg",
+    "question": "Whose winter palace was this building formerly?",
+    "expected_answer": "The Dalai Lamas",
+    "support": "winter palace of the Dalai Lamas"
+  },
+  {
+    "landmark": "Ha Long Bay",
+    "image_path": "data/query_images/Ha_Long_Bay.jpg",
+    "question": "What does the name of this bay mean?",
+    "expected_answer": "Descending dragon",
+    "support": "descending dragon"
+  },
+  {
+    "landmark": "Moai statues",
+    "image_path": "data/query_images/Moai_statues.jpg",
+    "question": "Which people carved these statues?",
+    "expected_answer": "The Rapa Nui people",
+    "support": "Rapa Nui people"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Eiffel Tower",
+    "extract": "The Eiffel Tower is a lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.",
+    "image_path": "images\\Eiffel_Tower.jpg",
+    "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+  },
+  {
+    "title": "Statue of Liberty",
+    "extract": "The Statue of Liberty is a colossal neoclassical sculpture of a robed and crowned woman located on Liberty Island, part of New York City, in New York Harbor. The copper-clad statue, a gift to the United States from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi, and its metal framework built by Gustave Eiffel. The statue was dedicated on October 28, 1886.",
+    "image_path": "images\\Statue_of_Liberty.jpg",
+    "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+  },
+  {
+    "title": "Great Wall of China",
+    "extract": "The Great Wall of China is a series of fortifications in China. They were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. The first walls date to the 7th century BC; these were joined together in the Qin dynasty. Successive dynasties expanded the wall system; the best-known sections were built by the Ming dynasty (1368–1644).",
+    "image_path": "images\\Great_Wall_of_China.jpg",
+    "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+  },
+  {
+    "title": "Taj Mahal",
+    "extract": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan, to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
+    "image_path": "images\\Taj_Mahal.jpg",
+    "url": "https://en.wikipedia.org/wiki/Taj_Mahal"
+  },
+  {
+    "title": "Colosseum",
+    "extract": "The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world. Construction began under the Emperor Vespasian in 72 and was completed in AD 80 under his successor and heir, Titus. Further modifications were made during the reign of Domitian. The three emperors who were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre by later classicists and archaeologists for its association with their family name (Flavius).",
+    "image_path": "images\\Colosseum.jpg",
+    "url": "https://en.wikipedia.org/wiki/Colosseum"
+  },
+  {
+    "title": "Machu Picchu",
+    "extract": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge at 2,430 meters (7,970 ft). It is situated in the Machupicchu District of Urubamba Province about 80 kilometers northwest of Cusco, above the Sacred Valley and along the Urubamba River, which forms a deep canyon with a subtropical mountain climate.",
+    "image_path": "images\\Machu_Picchu.jpg",
+    "url": "https://en.wikipedia.org/wiki/Machu_Picchu"
+  },
+  {
+    "title": "Christ the Redeemer",
+    "extract": "Christ the Redeemer, a reference to Jesus Christ as the Redeemer of humanity, may refer to:",
+    "image_path": null,
+    "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer"
+  },
+  {
+    "title": "Petra",
+    "extract": "Petra is an ancient city and archaeological site in southern Jordan. Famous for its rock-cut architecture and water conduit systems, Petra is also called the \"Rose City\" because of the colour of the sandstone from which it is carved. The city is one of the New 7 Wonders of the World and a UNESCO World Heritage Site.",
+    "image_path": "images\\Petra.jpg",
+    "url": "https://en.wikipedia.org/wiki/Petra"
+  },
+  {
+    "title": "Angkor Wat",
+    "extract": "Angkor Wat is a Theravada Buddhist temple complex, originally built as a Vaishnava Hindu temple, in Siem Reap, Cambodia. It is the largest religious complex in the world. Located on a site measuring 162.6 hectares within the medieval capital of Angkor, it was constructed between 1113 and 1150 CE during the reign of the Khmer king Suryavarman II as a Hindu temple dedicated to Vishnu. From the late 13th century onward, the complex was gradually transformed into a Buddhist temple as Khmer kings adopted Buddhism. Angkor Wat has remained a Buddhist monastery and an active center of Buddhist worship into the present day. It is noted for its monumental scale and extensive bas-reliefs and an architectural unity characteristic of Khmer architecture. Unlike most Angkorian temples, it is oriented toward the west. It is a symbol of Cambodia and appears on the Cambodian national flag.",
+    "image_path": "images\\Angkor_Wat.jpg",
+    "url": "https://en.wikipedia.org/wiki/Angkor_Wat"
+  },
+  {
+    "title": "Chichen Itza",
+    "extract": "Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán, Mexico, between the cities of Valladolid and Mérida.",
+    "image_path": "images\\Chichen_Itza.jpg",
+    "url": "https://en.wikipedia.org/wiki/Chichen_Itza"
+  },
+  {
+    "title": "Pyramids of Giza",
+    "extract": "The Giza pyramid complex in Egypt is home to the Great Pyramid, the pyramid of Khafre, and the pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx. All were built during the Fourth Dynasty of the Old Kingdom of ancient Egypt, between c. 2600 – c. 2500 BC. The site also includes several temples, cemeteries, and the remains of a workers' village.",
+    "image_path": "images\\Pyramids_of_Giza.jpg",
+    "url": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+  {
+    "title": "Sydney Opera House",
+    "extract": "The Sydney Opera House is a multi-venue performing arts centre in Sydney, New South Wales, Australia. Located on the foreshore of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings, and a masterpiece of 20th-century architecture.",
+    "image_path": "images\\Sydney_Opera_House.jpg",
+    "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+  },
+  {
+    "title": "Golden Gate Bridge",
+    "extract": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean in California, United States. The structure links San Francisco—the northern tip of the San Francisco Peninsula—to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait. It also carries pedestrian and bicycle traffic, and is designated as part of U.S. Bicycle Route 95. Recognized by the American Society of Civil Engineers as one of the Wonders of the Modern World, the bridge is one of the most internationally recognized symbols of San Francisco and California.",
+    "image_path": "images\\Golden_Gate_Bridge.jpg",
+    "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+  },
+  {
+    "title": "Big Ben",
+    "extract": "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, and, by extension, for the clock tower that stands at the north end of the Palace of Westminster in London, England. Originally named the Clock Tower, the structure was renamed the Elizabeth Tower in 2012 to mark the Diamond Jubilee of Queen Elizabeth II. The clock is a striking clock with five bells.",
+    "image_path": "images\\Big_Ben.jpg",
+    "url": "https://en.wikipedia.org/wiki/Big_Ben"
+  },
+  {
+    "title": "Mount Rushmore",
+    "extract": "The Mount Rushmore National Memorial is a national memorial featuring a colossal sculpture carved into the granite face of Mount Rushmore in the Black Hills, about 2 mi (3 km) southwest of Keystone, South Dakota, United States. The sculptor, Gutzon Borglum, named it the Shrine of Democracy, and oversaw the execution from 1927 to 1941 with the help of his son, Lincoln Borglum. The sculpture features 60-foot-tall (18 m) depictions of the heads of four United States presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln, respectively chosen to represent the nation's foundation, expansion, development, and preservation. Mount Rushmore attracts more than two million visitors annually to the memorial park which covers 1,278 acres.",
+    "image_path": "images\\Mount_Rushmore.jpg",
+    "url": "https://en.wikipedia.org/wiki/Mount_Rushmore"
+  },
+  {
+    "title": "Leaning Tower of Pisa",
+    "extract": "The Leaning Tower of Pisa, or simply the Tower of Pisa, is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four-degree lean, the result of an unstable foundation. The tower is one of three structures in Pisa's Cathedral Square, which includes the cathedral and Pisa Baptistry. Over time, the flawed tower has become one of the most visited tourist attractions in the world as well as an architectural icon of Italy, receiving over 5 million visitors each year.",
+    "image_path": "images\\Leaning_Tower_of_Pisa.jpg",
+    "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+  },
+  {
+    "title": "Stonehenge",
+    "extract": "Stonehenge is a prehistoric megalithic structure on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury. It consists of an outer ring of vertical sarsen standing stones, each around 13 feet (4.0 m) high, seven feet (2.1 m) wide, and weighing around 25 tons, topped by connecting horizontal lintel stones which are held in place with mortise and tenon joints—a feature unique among contemporary monuments. Inside is a ring of smaller bluestones. Inside these are free-standing trilithons: two bulkier vertical sarsens joined by a single lintel. The whole monument, now in ruins, is aligned towards the sunrise on the summer solstice and sunset on the winter solstice. The stones are set within earthworks in the middle of the densest complex of Neolithic and Bronze Age monuments in England, including several hundred tumuli.",
+    "image_path": "images\\Stonehenge.jpg",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge"
+  },
+  {
+    "title": "Neuschwanstein Castle",
+    "extract": "Neuschwanstein Castle is a 19th-century historicist palace on a rugged hill of the foothills of the Alps in the very south of Germany, near the border with Austria. It is located in the Swabia region of Bavaria, in the municipality of Schwangau, above the incorporated village of Hohenschwangau, which is also the location of Hohenschwangau Castle. The closest larger town is Füssen. The castle stands above the narrow gorge of the Pöllat stream, east of the Alpsee and Schwansee lakes, close to the mouth of the Lech into Lake Forggensee. Since 2025, the castle has been part of the UNESCO World Heritage Site \"The Palaces of King Ludwig II of Bavaria: Neuschwanstein, Linderhof, Schachen and Herrenchiemsee\". According to Guinness World Records, at 65 metres, it is the tallest castle in the world.",
+    "image_path": "images\\Neuschwanstein_Castle.jpg",
+    "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+  },
+  {
+    "title": "Burj Khalifa",
+    "extract": "The Burj Khalifa is a megatall skyscraper in Dubai, United Arab Emirates. Designed by Skidmore, Owings & Merrill, it is the world's tallest structure, with a total height of 829.8 m and a roof height of 828 m (2,717 ft). It has been the tallest building in the world since its complete inauguration in 2011, surpassing Taipei 101, which had held the record since 2004.",
+    "image_path": "images\\Burj_Khalifa.jpg",
+    "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+  },
+  {
+    "title": "Sagrada Familia",
+    "extract": "Basílica i Temple Expiatori de la Sagrada Família, or simply Sagrada Família, is a Catholic Basilica in the Eixample district of Barcelona, Catalonia, Spain. Designed by the Catalan architect Antoni Gaudí, it is the tallest church \nin the world. On 7 November 2010, Pope Benedict XVI consecrated the church and proclaimed it a basilica. In 2005, parts of the Sagrada Família were declared a UNESCO World Heritage Site, under \"Works of Antoni Gaudí\".",
+    "image_path": "images\\Sagrada_Familia.jpg",
+    "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+  },
+  {
+    "title": "Acropolis of Athens",
+    "extract": "The Acropolis of Athens is an ancient citadel located on a rocky outcrop above the city of Athens, Greece, and contains the remains of several ancient buildings of great architectural and historical significance, the most famous being the Parthenon. The word Acropolis is from Greek  ἄκρον (akron) 'highest point, extremity' and  πόλις (polis) 'city'. The term acropolis is generic and there are many other acropoleis in Greece. During ancient times the Acropolis of Athens was also more properly known as Cecropia (Κεκροπία), after the legendary serpent-man Cecrops, the supposed first Athenian king.",
+    "image_path": "images\\Acropolis_of_Athens.jpg",
+    "url": "https://en.wikipedia.org/wiki/Acropolis_of_Athens"
+  },
+  {
+    "title": "Forbidden City",
+    "extract": "The Forbidden City is the imperial palace complex in the center of the Imperial City in Beijing, China. It was the residence of twenty-four Ming and Qing dynasty Emperors and was the center of political power in China from 1420 to 1924. The palace is now administered by the Palace Museum and has been a UNESCO World Heritage Site since 1987. The Forbidden City is one of the most famous palaces in all of Chinese history and is the largest preserved royal palace complex still standing in the world.",
+    "image_path": "images\\Forbidden_City.jpg",
+    "url": "https://en.wikipedia.org/wiki/Forbidden_City"
+  },
+  {
+    "title": "Alhambra",
+    "extract": "The Alhambra is a palace and fortress complex located in Granada, Spain. It is one of the most famous monuments of Islamic architecture and the only well-preserved palace from the medieval Islamic world. Additionally, the palace contains notable examples of Spanish Renaissance architecture.",
+    "image_path": "images\\Alhambra.jpg",
+    "url": "https://en.wikipedia.org/wiki/Alhambra"
+  },
+  {
+    "title": "Hagia Sophia",
+    "extract": "Hagia Sophia, officially the Hagia Sophia Grand Mosque, is a mosque and a major cultural and historical site in Istanbul, Turkey. It was formerly a church (360–1453) and a museum (1935–2020). The last of three church buildings to be successively erected on the site by the Eastern Roman Empire, it was completed in AD 537, becoming the world's largest interior space and among the first to employ a fully pendentive dome. It is considered the epitome of Byzantine architecture and is said to have \"changed the history of architecture\". From its dedication in 360 until 1453, Hagia Sophia served as the cathedral of Constantinople in the Byzantine liturgical tradition, except for the period 1204–1261 when the Latin Crusaders installed their own hierarchy. After the fall of Constantinople in 1453, it served as a mosque, having its minarets added soon after. The site became a museum in 1935, and was redesignated as a mosque in 2020.",
+    "image_path": "images\\Hagia_Sophia.jpg",
+    "url": "https://en.wikipedia.org/wiki/Hagia_Sophia"
+  },
+  {
+    "title": "Mont Saint-Michel",
+    "extract": "Mont-Saint-Michel is a tidal island and mainland commune in Normandy, France.",
+    "image_path": "images\\Mont_Saint-Michel.jpg",
+    "url": "https://en.wikipedia.org/wiki/Mont-Saint-Michel"
+  },
+  {
+    "title": "Table Mountain",
+    "extract": "Table Mountain is a flat-topped mountain forming a prominent landmark overlooking the city of Cape Town in South Africa.",
+    "image_path": "images\\Table_Mountain.jpg",
+    "url": "https://en.wikipedia.org/wiki/Table_Mountain"
+  },
+  {
+    "title": "Victoria Falls",
+    "extract": "Victoria Falls is a waterfall on the Zambezi River, located on the border between Zambia and Zimbabwe. It is one of the world's largest waterfalls, with a width of 1,708 m (5,604 ft). The region around it has a high degree of biodiversity in both plants and animals.",
+    "image_path": "images\\Victoria_Falls.jpg",
+    "url": "https://en.wikipedia.org/wiki/Victoria_Falls"
+  },
+  {
+    "title": "Uluru",
+    "extract": "Uluru, also known as Ayers Rock and officially gazetted as Uluru / Ayers Rock, is a large sandstone monolith. It crops out near the centre of Australia in the southern part of the Northern Territory, 335 km (208 mi) south-west of Alice Springs.",
+    "image_path": "images\\Uluru.jpg",
+    "url": "https://en.wikipedia.org/wiki/Uluru"
+  },
+  {
+    "title": "Niagara Falls",
+    "extract": "Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the Canadian province of Ontario and the U.S. state of New York. The largest of the three is Horseshoe Falls, which straddles the international border of the two countries. It is also known as the Canadian Falls. The smaller American Falls and Bridal Veil Falls lie within the United States.",
+    "image_path": "images\\Niagara_Falls.jpg",
+    "url": "https://en.wikipedia.org/wiki/Niagara_Falls"
+  },
+  {
+    "title": "Grand Canyon",
+    "extract": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. The Grand Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile.",
+    "image_path": "images\\Grand_Canyon.jpg",
+    "url": "https://en.wikipedia.org/wiki/Grand_Canyon"
+  },
+  {
+    "title": "Himeji Castle",
+    "extract": "Himeji Castle  is a hilltop Japanese castle complex situated in Himeji, a city in Hyōgo Prefecture, Japan. The castle is regarded as the finest surviving example of prototypical Japanese castle architecture, comprising a network of 83 structures with advanced defensive systems from the feudal period. The castle is frequently known as Hakuro-jō or Shirasagi-jō because of its brilliant white exterior and supposed resemblance to a bird taking flight.",
+    "image_path": "images\\Himeji_Castle.jpg",
+    "url": "https://en.wikipedia.org/wiki/Himeji_Castle"
+  },
+  {
+    "title": "Potala Palace",
+    "extract": "Potala Palace is a museum complex in Lhasa, the capital of the Tibet Autonomous Region of China. It was formerly the winter palace of the Dalai Lamas, and from 1649 until 1959 served as the Dalai Lamas' residence. The palace complex became a museum following the annexation of Tibet by the People's Republic of China.",
+    "image_path": "images\\Potala_Palace.jpg",
+    "url": "https://en.wikipedia.org/wiki/Potala_Palace"
+  },
+  {
+    "title": "Borobudur",
+    "extract": "Borobudur, also transcribed Barabudur, is a 9th-century Mahayana Buddhist temple in Magelang Regency, near the town of Muntilan, northwest of the city of Yogyakarta, in Central Java, Indonesia.",
+    "image_path": "images\\Borobudur.jpg",
+    "url": "https://en.wikipedia.org/wiki/Borobudur"
+  },
+  {
+    "title": "Petronas Towers",
+    "extract": "The Petronas Towers, also known as the Petronas Twin Towers and colloquially the KLCC Twin Towers, are an interlinked pair of 88-storey supertall skyscrapers in Kuala Lumpur, Malaysia, standing at 451.9 m (1,483 ft). From 1998 to 2004, they were the tallest buildings in the world until they were surpassed by the Taipei 101 skyscraper in Taiwan. The Petronas Towers remain the world's tallest twin skyscrapers, surpassing the original World Trade Center towers in New York City, and were the tallest buildings in Malaysia until 2019, when they were surpassed by The Exchange 106. The Petronas Towers are a major landmark of Kuala Lumpur, along with the nearby Kuala Lumpur Tower and Merdeka 118, and are visible in many places across the city.",
+    "image_path": "images\\Petronas_Towers.jpg",
+    "url": "https://en.wikipedia.org/wiki/Petronas_Towers"
+  },
+  {
+    "title": "CN Tower",
+    "extract": "The CN Tower is a 553.3-metre-high (1,815.3 ft) communications and observation tower in Toronto, Ontario, Canada. Completed in 1976, it is located in downtown Toronto, built on the former Railway Lands. Its name \"CN\" refers to Canadian National, the railway company that built the tower. Following the railway's decision to divest non-core freight railway assets prior to the company's privatization in 1995, it transferred the tower to the Canada Lands Company, a federal Crown corporation responsible for the government's real estate portfolio.",
+    "image_path": "images\\CN_Tower.jpg",
+    "url": "https://en.wikipedia.org/wiki/CN_Tower"
+  },
+  {
+    "title": "Brandenburg Gate",
+    "extract": "The Brandenburg Gate is an 18th-century neoclassical monument in Berlin, Germany. One of the best-known landmarks of the country, it was erected on the site of a former city gate that marked the start of the road from Berlin to Brandenburg an der Havel, the former capital of the Margraviate of Brandenburg. The current structure was built from 1788 to 1791 by orders of King Frederick William II of Prussia, based on designs by the royal architect Carl Gotthard Langhans. The bronze sculpture of the quadriga crowning the gate is a work by the sculptor Johann Gottfried Schadow.",
+    "image_path": "images\\Brandenburg_Gate.jpg",
+    "url": "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+  },
+  {
+    "title": "Charles Bridge",
+    "extract": "Charles Bridge is a medieval stone arch bridge that crosses the Vltava river in Prague, Czech Republic. Its construction started in 1357 under the auspices of King Charles IV, and finished in the early 15th century. The bridge replaced the old Judith Bridge built 1158–1172 that had been severely damaged by a flood in 1342. This new bridge was originally called Stone Bridge or Prague Bridge, but has been referred to as \"Charles Bridge\" since 1870.",
+    "image_path": "images\\Charles_Bridge.jpg",
+    "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+  },
+  {
+    "title": "Blue Mosque",
+    "extract": "Blue Mosque may refer to:",
+    "image_path": null,
+    "url": "https://en.wikipedia.org/wiki/Blue_Mosque"
+  },
+  {
+    "title": "Notre-Dame de Paris",
+    "extract": "Notre-Dame de Paris, often referred to simply as Notre-Dame, is a medieval Catholic cathedral and basilica on the Île de la Cité, in the 4th arrondissement of Paris, France. It is the cathedral church of the Roman Catholic Archdiocese of Paris.",
+    "image_path": "images\\Notre-Dame_de_Paris.jpg",
+    "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+  },
+  {
+    "title": "St. Basil's Cathedral",
+    "extract": "The Cathedral of Vasily the Blessed, commonly known as Saint Basil's Cathedral, is a Russian Orthodox church on Red Square in the historic centre of Moscow. It is one of the most popular cultural symbols of Russia. The building, now a museum, is officially known as the Cathedral of the Intercession of the Most Holy Theotokos on the Moat, or Pokrovsky Cathedral. It was built from 1555 to 1561 on orders from Ivan the Terrible and commemorates the capture of Kazan and Astrakhan. It was completed, with its colours, in 1683.",
+    "image_path": "images\\St__Basil_s_Cathedral.jpg",
+    "url": "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral"
+  },
+  {
+    "title": "Buckingham Palace",
+    "extract": "Buckingham Palace is the official residence and administrative headquarters of the monarch of the United Kingdom in London, England. Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality. It has been a focal point for the British people at times of national rejoicing and mourning.",
+    "image_path": "images\\Buckingham_Palace.jpg",
+    "url": "https://en.wikipedia.org/wiki/Buckingham_Palace"
+  },
+  {
+    "title": "Empire State Building",
+    "extract": "The Empire State Building is a 102-story, supertall skyscraper in the Midtown South neighborhood of Manhattan, New York City, United States. The building was designed in the Art Deco style by Shreve, Lamb & Harmon and constructed between 1930 and 1931. Its name is derived from \"Empire State\", the nickname of New York state. The building has a roof height of 1,250 feet (380 m) and stands a total of 1,454 feet (443.2 m) tall including its antenna. The Empire State Building was the world's tallest building until the North Tower of the World Trade Center was topped out in 1970; following the September 11 attacks in 2001, the Empire State Building was once more New York City's tallest building until it was surpassed in 2012 by One World Trade Center. As of 2025, the building is the eighth-tallest building in New York City, the tenth-tallest completed skyscraper in the United States, and the 59th-tallest completed skyscraper in the world.",
+    "image_path": "images\\Empire_State_Building.jpg",
+    "url": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+  {
+    "title": "Space Needle",
+    "extract": "The Space Needle is an observation tower in Seattle, Washington, United States. Considered to be an icon of the city, it has been designated a Seattle landmark. Located at 400 Broad Street in the Lower Queen Anne neighborhood, it was built in the Seattle Center for the 1962 World's Fair, which drew more than 2.3 million visitors.",
+    "image_path": "images\\Space_Needle.jpg",
+    "url": "https://en.wikipedia.org/wiki/Space_Needle"
+  },
+  {
+    "title": "Hollywood Sign",
+    "extract": "The Hollywood Sign is an American landmark and cultural icon overlooking Hollywood, Los Angeles. Originally the Hollywoodland Sign, it is on Mount Lee, above Beachwood Canyon in the Santa Monica Mountains. It was originally erected in 1923 as a temporary advertisement for a local real estate development, and spelled out \"HOLLYWOODLAND\" in 50-foot-tall (15.2 m) white uppercase letters in a word 450 feet (137.2 m) long. Due to increasing recognition, the sign was left up; the last four letters \"LAND\" were removed in 1949. The sign was entirely replaced in 1978, using 45-foot-tall (13.7 m) letters in a more durable all-steel structure with concrete footings.",
+    "image_path": "images\\Hollywood_Sign.jpg",
+    "url": "https://en.wikipedia.org/wiki/Hollywood_Sign"
+  },
+  {
+    "title": "Chateau de Chambord",
+    "extract": "The Château de Chambord in Chambord, Centre-Val de Loire, France, is one of the most recognisable châteaux in the world because of its very distinctive French Renaissance architecture, which blends traditional French medieval forms with classical Renaissance structures. The building was commissioned by Francis I of France and built between 1519 and 1547.",
+    "image_path": "images\\Chateau_de_Chambord.jpg",
+    "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord"
+  },
+  {
+    "title": "Cologne Cathedral",
+    "extract": "Cologne Cathedral is a Catholic cathedral in Cologne, North Rhine-Westphalia, Germany. It is the seat of the Archbishop of Cologne and of the administration of the Archdiocese of Cologne. It is a renowned monument of German Catholicism and Gothic architecture and was declared a World Heritage Site in 1996. It is Germany's most visited landmark, attracting an average of 6 million people a year. At 157 m (515 ft), the cathedral is the tallest twin-spired church in the world, the third tallest church in Europe after Sagrada Família and Ulm Minster, and the tallest cathedral in the world.",
+    "image_path": "images\\Cologne_Cathedral.jpg",
+    "url": "https://en.wikipedia.org/wiki/Cologne_Cathedral"
+  },
+  {
+    "title": "Edinburgh Castle",
+    "extract": "Edinburgh Castle is a historic castle in Edinburgh, Scotland. It stands on Castle Rock, which has been occupied by humans since at least the Iron Age. There has been a royal castle on the rock since the reign of Malcolm III in the 11th century, and the castle continued to be a royal residence until 1633. From the 15th century, the castle's residential role declined, and by the 17th century it was principally used as a military garrison. Its importance as a part of Scotland's national heritage was recognised increasingly from the early 19th century onwards, and various restoration programmes have been carried out since the middle of the 19th century.",
+    "image_path": "images\\Edinburgh_Castle.jpg",
+    "url": "https://en.wikipedia.org/wiki/Edinburgh_Castle"
+  },
+  {
+    "title": "Windsor Castle",
+    "extract": "Windsor Castle is a royal residence at Windsor in the English county of Berkshire, about 25 miles (40 km) west of central London. It is strongly associated with the English and succeeding British royal family, and embodies almost a millennium of architectural history.",
+    "image_path": "images\\Windsor_Castle.jpg",
+    "url": "https://en.wikipedia.org/wiki/Windsor_Castle"
+  },
+  {
+    "title": "Trevi Fountain",
+    "extract": "The Trevi Fountain is an 18th-century fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini in 1762. Standing 26.3 metres (86 ft) high and 49.15 metres (161.3 ft) wide, it is the largest Baroque fountain in the world and one of the most famous fountains in the world.",
+    "image_path": "images\\Trevi_Fountain.jpg",
+    "url": "https://en.wikipedia.org/wiki/Trevi_Fountain"
+  },
+  {
+    "title": "Duomo di Milano",
+    "extract": "Milan Cathedral, or Metropolitan Cathedral-Basilica of the Nativity of Saint Mary, is the cathedral church of Milan, Lombardy, Italy. Dedicated to the Nativity of St. Mary, it is the seat of the Archbishop of Milan, currently Archbishop Mario Delpini.",
+    "image_path": "images\\Duomo_di_Milano.jpg",
+    "url": "https://en.wikipedia.org/wiki/Milan_Cathedral"
+  },
+  {
+    "title": "Marina Bay Sands",
+    "extract": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore and a landmark of the city. At its opening in 2010, it was deemed the world's most expensive standalone casino property at S$8 billion (US$6.88 billion). The resort includes a 1,850-room hotel, a 120,000-square-metre (1,300,000 sq ft) meetings and conventions facility at Sands Expo & Convention Centre, a 74,000-square-metre luxury shopping mall, The Shoppes at Marina Bay Sands, an ArtScience museum, a 2,183-capacity theatre, the world's first floating Apple store, the world's first Louis Vuitton Island Maison, celebrity chef, signature and Michelin-starred restaurants, and a casino with 500 tables and 3,000 electronic gaming machines. The complex includes three towers topped by the Sands Skypark, a 340-metre-long (1,120 ft) skyway connecting the towers with a capacity of 3,902 people and a 150 m (490 ft) infinity swimming pool, set on top of the world's largest public cantilevered platform, which overhangs the north tower by 66.5 m (218 ft). The 20-hectare resort was designed by Moshe Safdie. The main contractor was Ssangyong Engineering and Construction.",
+    "image_path": "images\\Marina_Bay_Sands.jpg",
+    "url": "https://en.wikipedia.org/wiki/Marina_Bay_Sands"
+  },
+  {
+    "title": "Palace of Versailles",
+    "extract": "The Palace of Versailles is a château and historic monument in Versailles in the Yvelines department of France, southwest of Paris. It served as the principal residence of the French kings Louis XIV, Louis XV, and Louis XVI.",
+    "image_path": "images\\Palace_of_Versailles.jpg",
+    "url": "https://en.wikipedia.org/wiki/Palace_of_Versailles"
+  },
+  {
+    "title": "Kremlin",
+    "extract": "The Moscow Kremlin, commonly known as the Kremlin, is a fortified complex (kremlin) in Moscow, Russia that is one of the country's most recognizable landmarks. Located in the historic centre of the country's capital city, the Kremlin comprises five palaces, four cathedrals, and an enclosing wall along with numerous towers. Within the complex is the Grand Kremlin Palace, which was one of the royal residences of the Tsar of Russia, and is now the residence of the president of the Russian Federation. The Kremlin overlooks the Moskva River to the south, Red Square to the east, and Alexander Garden to the west.",
+    "image_path": "images\\Kremlin.jpg",
+    "url": "https://en.wikipedia.org/wiki/Kremlin"
+  },
+  {
+    "title": "Tower Bridge",
+    "extract": "Tower Bridge is a Grade I listed combined bascule, suspension, and, until 1960, cantilever bridge in London, built between 1886 and 1894, designed by Horace Jones and engineered by John Wolfe Barry with the help of Henry Marc Brunel. It crosses the River Thames close to the Tower of London and is one of five London bridges owned and maintained by the City Bridge Foundation, a charitable trust founded in 1282.",
+    "image_path": "images\\Tower_Bridge.jpg",
+    "url": "https://en.wikipedia.org/wiki/Tower_Bridge"
+  },
+  {
+    "title": "Sydney Harbour Bridge",
+    "extract": "The Sydney Harbour Bridge is a steel through arch bridge in Sydney, New South Wales, Australia, spanning Sydney Harbour from the central business district (CBD) to the North Shore. The view of the bridge, the harbour, and the nearby Sydney Opera House is widely regarded as an iconic image of Sydney, and of Australia itself. Nicknamed \"the Coathanger\" because of its arch-based design, the bridge carries rail, vehicular, bicycle and pedestrian traffic.",
+    "image_path": "images\\Sydney_Harbour_Bridge.jpg",
+    "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+  },
+  {
+    "title": "Moai statues",
+    "extract": "Moai or moꞌai are monolithic human figures carved from stone by the Rapa Nui people, on Rapa Nui in eastern Polynesia between the years 1250 and 1500. Nearly half are still at Rano Raraku, the main moai quarry, but hundreds were transported from there and set on stone platforms called ahu around the island's perimeter. Almost all moai have overly large heads, which account for three-eighths of the size of the whole statue. They also have no legs. The moai are chiefly the living faces of deified ancestors .\nAlthough the stone moai are the most famous, the Rapa Nui also carved small wooden moai: moꞌai kavakava (male), moꞌai paepae/papa (female), and moꞌai taŋata (male).",
+    "image_path": "images\\Moai_statues.jpg",
+    "url": "https://en.wikipedia.org/wiki/Moai"
+  },
+  {
+    "title": "Ha Long Bay",
+    "extract": "Hạ Long Bay or Halong Bay is a bay located in Northeastern Vietnam, administered by the city of Quảng Ninh. The name Hạ Long means \"descending dragon\". It features thousands of limestone karsts and islets in various shapes and sizes, for which it is listed as a UNESCO World Heritage Site and a popular travel destination. The bay is also part of a larger area that includes Bai Tu Long Bay to the northeast and Cát Bà Island to the southwest. These zones share similar geological, geographical, geomorphological, climatic, and cultural characteristics.",
+    "image_path": "images\\Ha_Long_Bay.jpg",
+    "url": "https://en.wikipedia.org/wiki/H%E1%BA%A1_Long_Bay"
+  },
+  {
+    "title": "Iguazu Falls",
+    "extract": "The Iguazú Falls or Iguaçu Falls are waterfalls of the Iguazu River on the border of the Argentine province of Misiones and the Brazilian state of Paraná. Together, they make up the largest waterfall system in the world. The falls divide the river into the upper and lower Iguazu. The Iguazu River rises near the heart of the city of Curitiba. For most of its course, the river flows through Brazil; however, most of the falls are on the Argentine side. Below its confluence with the San Antonio River, the Iguazu River forms the border between Argentina and Brazil.",
+    "image_path": "images\\Iguazu_Falls.jpg",
+    "url": "https://en.wikipedia.org/wiki/Iguazu_Falls"
+  },
+  {
+    "title": "Meteora",
+    "extract": "Meteora is a rock formation in the regional unit of Trikala, in Thessaly, in northwestern Greece, hosting one of the most prominent complexes of Eastern Orthodox monasteries, viewed locally as second in importance only to Mount Athos. Their height is more than 20 metres (66 ft).",
+    "image_path": "images\\Meteora.jpg",
+    "url": "https://en.wikipedia.org/wiki/Meteora"
+  },
+  {
+    "title": "Cappadocia",
+    "extract": "Cappadocia is a historical region in Central Anatolia region, Turkey. It is largely in the provinces of Nevşehir, Kayseri, Aksaray, Kırşehir, Sivas and Niğde. Today, the touristic Cappadocia Region is located in Nevşehir province.",
+    "image_path": "images\\Cappadocia.jpg",
+    "url": "https://en.wikipedia.org/wiki/Cappadocia"
+  }
+]

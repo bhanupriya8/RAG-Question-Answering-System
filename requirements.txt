@@ -1,0 +1,28 @@
+# Core (Parts A and B)
+requests
+numpy
+Pillow
+torch
+sentence-transformers
+faiss-cpu
+open-clip-torch
+pypdf
+rank-bm25
+python-dotenv
+
+# LLM providers (install the ones you use)
+google-genai
+anthropic
+openai
+groq
+
+# Part C
+scikit-learn
+pandas
+openpyxl
+playwright
+youtube-transcript-api
+
+fastapi
+python-multipart
+uvicorn

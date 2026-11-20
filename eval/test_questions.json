@@ -1,0 +1,54 @@
+
+
+[
+  {
+    "image_path": "data/images/Eiffel_Tower.jpg",
+    "question": "Who designed this structure?",
+    "expected_answer": "Gustave Eiffel"
+  },
+  {
+    "image_path": "data/images/Taj_Mahal.jpg",
+    "question": "What material is this monument primarily made of?",
+    "expected_answer": "White marble"
+  },
+  {
+    "image_path": "data/images/Great_Wall_of_China.jpg",
+    "question": "Approximately how long is this structure?",
+    "expected_answer": "About 21,000 km"
+  },
+  {
+    "image_path": "data/images/Colosseum.jpg",
+    "question": "In which city is this ancient amphitheatre located?",
+    "expected_answer": "Rome, Italy"
+  },
+  {
+    "image_path": "data/images/Machu_Picchu.jpg",
+    "question": "In which country is this archaeological site located?",
+    "expected_answer": "Peru"
+  },
+  {
+    "image_path": "data/images/Statue_of_Liberty.jpg",
+    "question": "In which city is this monument located?",
+    "expected_answer": "New York City"
+  },
+  {
+    "image_path": "data/images/Christ_the_Redeemer.jpg",
+    "question": "In which Brazilian city is this statue located?",
+    "expected_answer": "Rio de Janeiro"
+  },
+  {
+    "image_path": "data/images/Pyramids_of_Giza.jpg",
+    "question": "In which country are the Pyramids of Giza located?",
+    "expected_answer": "Egypt"
+  },
+  {
+    "image_path": "data/images/Sydney_Opera_House.jpg",
+    "question": "In which Australian city is this building located?",
+    "expected_answer": "Sydney"
+  },
+  {
+    "image_path": "data/images/Leaning_Tower_of_Pisa.jpg",
+    "question": "In which Italian city is this famous tower located?",
+    "expected_answer": "Pisa, Italy"
+  }
+]

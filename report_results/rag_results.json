@@ -1,0 +1,432 @@
+{
+  "n_questions": 18,
+  "n_answerable": 14,
+  "n_unanswerable": 4,
+  "retrieval_rows": [
+    {
+      "q": "how does the CYK algorithm parse a sentence?",
+      "answerable": true,
+      "dense_rank": 1,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.72
+    },
+    {
+      "q": "what are the limitations of CYK?",
+      "answerable": true,
+      "dense_rank": 4,
+      "hybrid_rank": 4,
+      "conf": "medium",
+      "top_dense": 0.431
+    },
+    {
+      "q": "what does the Earley predictor do?",
+      "answerable": true,
+      "dense_rank": 2,
+      "hybrid_rank": 2,
+      "conf": "high",
+      "top_dense": 0.457
+    },
+    {
+      "q": "what are the three Earley operations?",
+      "answerable": true,
+      "dense_rank": 2,
+      "hybrid_rank": 2,
+      "conf": "medium",
+      "top_dense": 0.407
+    },
+    {
+      "q": "does Earley parsing require Chomsky Normal Form?",
+      "answerable": true,
+      "dense_rank": 4,
+      "hybrid_rank": 3,
+      "conf": "high",
+      "top_dense": 0.667
+    },
+    {
+      "q": "explain top-down parsing and also what the Earley predictor does",
+      "answerable": true,
+      "dense_rank": 2,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.667
+    },
+    {
+      "q": "what are the advantages and limitations of CYK, and how does Earley overcome them?",
+      "answerable": true,
+      "dense_rank": 1,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.536
+    },
+    {
+      "q": "how is CYK different from Earley?",
+      "answerable": true,
+      "dense_rank": 1,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.56
+    },
+    {
+      "q": "what is the capital of France?",
+      "answerable": false,
+      "dense_rank": null,
+      "hybrid_rank": null,
+      "conf": "low",
+      "top_dense": 0.096
+    },
+    {
+      "q": "how do I train a convolutional neural network?",
+      "answerable": false,
+      "dense_rank": null,
+      "hybrid_rank": null,
+      "conf": "low",
+      "top_dense": 0.134
+    },
+    {
+      "q": "who won the 2018 football world cup?",
+      "answerable": false,
+      "dense_rank": null,
+      "hybrid_rank": null,
+      "conf": "low",
+      "top_dense": 0.105
+    },
+    {
+      "q": "what are the stages of NLP?",
+      "answerable": true,
+      "dense_rank": 1,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.614
+    },
+    {
+      "q": "what are the types of finite automata?",
+      "answerable": true,
+      "dense_rank": 2,
+      "hybrid_rank": 2,
+      "conf": "high",
+      "top_dense": 0.668
+    },
+    {
+      "q": "what are the major challenges in NLP?",
+      "answerable": true,
+      "dense_rank": 1,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.65
+    },
+    {
+      "q": "what are common POS tags?",
+      "answerable": true,
+      "dense_rank": 1,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.549
+    },
+    {
+      "q": "what are the applications of POS tagging?",
+      "answerable": true,
+      "dense_rank": 1,
+      "hybrid_rank": 1,
+      "conf": "high",
+      "top_dense": 0.638
+    },
+    {
+      "q": "what is the difference between stemming and lemmatization?",
+      "answerable": true,
+      "dense_rank": 3,
+      "hybrid_rank": 3,
+      "conf": "high",
+      "top_dense": 0.64
+    },
+    {
+      "q": "how do I write a list comprehension in Python?",
+      "answerable": false,
+      "dense_rank": null,
+      "hybrid_rank": null,
+      "conf": "low",
+      "top_dense": 0.298
+    }
+  ],
+  "retrieval": {
+    "dense": {
+      "hit_at_k": 1.0,
+      "mrr": 0.7023809523809524
+    },
+    "hybrid": {
+      "hit_at_k": 1.0,
+      "mrr": 0.744047619047619
+    }
+  },
+  "calibration": {
+    "answerable_not_low": 1.0,
+    "unanswerable_low": 1.0
+  },
+  "answer_rows": [
+    {
+      "q": "how does the CYK algorithm parse a sentence?",
+      "answerable": true,
+      "single_time": 5.4,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 0.6666666666666666,
+      "single_abstained": false,
+      "agent_time": 333.8,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 0.6666666666666666,
+      "agent_abstained": false
+    },
+    {
+      "q": "what are the limitations of CYK?",
+      "answerable": true,
+      "single_time": 63.3,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 0.5,
+      "single_abstained": false,
+      "agent_time": 10.9,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 0.5,
+      "agent_abstained": false
+    },
+    {
+      "q": "what does the Earley predictor do?",
+      "answerable": true,
+      "single_time": 117.2,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 1.0,
+      "single_abstained": false,
+      "agent_time": 46.2,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 1.0,
+      "agent_abstained": false
+    },
+    {
+      "q": "what are the three Earley operations?",
+      "answerable": true,
+      "single_time": 23.3,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 1.0,
+      "single_abstained": false,
+      "agent_time": 39.1,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 1.0,
+      "agent_abstained": false
+    },
+    {
+      "q": "does Earley parsing require Chomsky Normal Form?",
+      "answerable": true,
+      "single_time": 65.1,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 0.5,
+      "single_abstained": false,
+      "agent_time": 177.6,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 0.5,
+      "agent_abstained": false
+    },
+    {
+      "q": "explain top-down parsing and also what the Earley predictor does",
+      "answerable": true,
+      "single_time": 109.9,
+      "single_calls": 1,
+      "single_kw": 0.5,
+      "single_cite_prec": 0.5,
+      "single_abstained": false,
+      "agent_time": 193.8,
+      "agent_calls": 2,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 1.0,
+      "agent_abstained": false
+    },
+    {
+      "q": "what are the advantages and limitations of CYK, and how does Earley overcome them?",
+      "answerable": true,
+      "single_time": 48.4,
+      "single_calls": 1,
+      "single_kw": 0.6666666666666666,
+      "single_cite_prec": 0.6666666666666666,
+      "single_abstained": false,
+      "agent_time": 92.5,
+      "agent_calls": 1,
+      "agent_kw": 0.6666666666666666,
+      "agent_cite_prec": 1.0,
+      "agent_abstained": false
+    },
+    {
+      "q": "how is CYK different from Earley?",
+      "answerable": true,
+      "single_time": 118.8,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 0.6666666666666666,
+      "single_abstained": false,
+      "agent_time": 170.4,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 0.6666666666666666,
+      "agent_abstained": false
+    },
+    {
+      "q": "what is the capital of France?",
+      "answerable": false,
+      "single_time": 0.0,
+      "single_calls": 0,
+      "single_kw": null,
+      "single_cite_prec": null,
+      "single_abstained": true,
+      "agent_time": 0.0,
+      "agent_calls": 0,
+      "agent_kw": null,
+      "agent_cite_prec": null,
+      "agent_abstained": true
+    },
+    {
+      "q": "how do I train a convolutional neural network?",
+      "answerable": false,
+      "single_time": 0.0,
+      "single_calls": 0,
+      "single_kw": null,
+      "single_cite_prec": null,
+      "single_abstained": true,
+      "agent_time": 0.0,
+      "agent_calls": 0,
+      "agent_kw": null,
+      "agent_cite_prec": null,
+      "agent_abstained": true
+    },
+    {
+      "q": "who won the 2018 football world cup?",
+      "answerable": false,
+      "single_time": 0.0,
+      "single_calls": 0,
+      "single_kw": null,
+      "single_cite_prec": null,
+      "single_abstained": true,
+      "agent_time": 0.0,
+      "agent_calls": 0,
+      "agent_kw": null,
+      "agent_cite_prec": null,
+      "agent_abstained": true
+    },
+    {
+      "q": "what are the stages of NLP?",
+      "answerable": true,
+      "single_time": 59.1,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 1.0,
+      "single_abstained": false,
+      "agent_time": 70.1,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 1.0,
+      "agent_abstained": false
+    },
+    {
+      "q": "what are the types of finite automata?",
+      "answerable": true,
+      "single_time": 242.8,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 1.0,
+      "single_abstained": false,
+      "agent_time": 69.7,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 1.0,
+      "agent_abstained": false
+    },
+    {
+      "q": "what are the major challenges in NLP?",
+      "answerable": true,
+      "single_time": 78.7,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 0.6666666666666666,
+      "single_abstained": false,
+      "agent_time": 5.9,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 0.6666666666666666,
+      "agent_abstained": false
+    },
+    {
+      "q": "what are common POS tags?",
+      "answerable": true,
+      "single_time": 130.4,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 1.0,
+      "single_abstained": false,
+      "agent_time": 177.6,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 1.0,
+      "agent_abstained": false
+    },
+    {
+      "q": "what are the applications of POS tagging?",
+      "answerable": true,
+      "single_time": 143.4,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 0.5,
+      "single_abstained": false,
+      "agent_time": 112.4,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 0.5,
+      "agent_abstained": false
+    },
+    {
+      "q": "how do I write a list comprehension in Python?",
+      "answerable": false,
+      "single_time": 0.0,
+      "single_calls": 0,
+      "single_kw": null,
+      "single_cite_prec": null,
+      "single_abstained": true,
+      "agent_time": 0.0,
+      "agent_calls": 0,
+      "agent_kw": null,
+      "agent_cite_prec": null,
+      "agent_abstained": true
+    },
+    {
+      "q": "what is the difference between stemming and lemmatization?",
+      "answerable": true,
+      "single_time": 33.0,
+      "single_calls": 1,
+      "single_kw": 1.0,
+      "single_cite_prec": 0.3333333333333333,
+      "single_abstained": false,
+      "agent_time": 158.5,
+      "agent_calls": 1,
+      "agent_kw": 1.0,
+      "agent_cite_prec": 0.5,
+      "agent_abstained": false
+    }
+  ],
+  "answers": {
+    "single_kw": 0.9404761904761905,
+    "agent_kw": 0.9761904761904762,
+    "single_cite": 0.7142857142857143,
+    "agent_cite": 0.7857142857142857,
+    "single_calls": 0.7777777777777778,
+    "agent_calls": 0.8333333333333334,
+    "single_time": 68.82222222222222,
+    "agent_time": 92.13888888888889,
+    "n_done": 18,
+    "n_total": 18,
+    "model": "Gemini:gemini-3.8-flash"
+  }
+}
