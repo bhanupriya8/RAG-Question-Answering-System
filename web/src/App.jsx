@@ -1580,7 +1580,7 @@ function App() {
   return (
     <div className="app">
       <aside className="sidebar">
-        <h1 className="brand">Document QA</h1>
+        <h1 className="brand">RAG based Question Answering</h1>
 
         <section>
           <h2>Documents</h2>

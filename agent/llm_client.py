@@ -179,7 +179,7 @@ class GeminiClient:
 
     def __init__(
         self,
-        model: str = "gemini-3.6-flash"
+        model: str = "gemini-3.1-flash-lite"
     ):
 
         from google import genai
@@ -571,6 +571,6 @@ class OpenRouterClient:
 # DEFAULT_CLIENT = OpenRouterClient(model="nvidia/nemotron-3.5-super-vl:free")
 # DEFAULT_CLIENT = OpenAIClient(model="gpt-4o-mini")
 
-DEFAULT_CLIENT = GeminiClient(model="gemini-3.8-flash")
+DEFAULT_CLIENT = GeminiClient(model="gemini-3.1-flash-lite")
 
 # DEFAULT_CLIENT = GeminiClient(model="gemini-3.7-flash")

@@ -14,3 +14,6 @@ backups/
 # Temporary operating-system files
 .DS_Store
 Thumbs.db
+
+# Deployment testing environment
+.venv-deploy/
