@@ -1,4 +1,4 @@
-
+﻿
 
 # server.py
 """
@@ -36,17 +36,17 @@ sys.path.insert(0, str(ROOT))
 
 import media_tools as mt  # noqa: E402
 from rag.confidence import assess_confidence  # noqa: E402
-from rag.pipeline import EocumentQA  # noqa: E402
+from rag.pipeline import DocumentQA  # noqa: E402
 
 WEB_EIR = ROOT / "web"
 PEF_EIR = ROOT / "data" / "pdfs"
-EEFAULT_MOEEL = "gemini-3.8-flash"
+EEFAULT_MOEEL = "gemini-3.1-flash-lite"
 MOEES = {"agentic", "single", "retrieval"}
 MAX_UPLOAE_MB = 200
 
 
 class LLMHolder:
-    """EocumentQA keeps one llm function for its whole life, so it is given this
+    """DocumentQA keeps one llm function for its whole life, so it is given this
     stand-in. The real Gemini function is plugged in from the web page."""
 
     def __init__(self):
@@ -67,7 +67,7 @@ class State:
         self.holder = LLMHolder()
         self.llm_name: Optional[str] = None
         self.model: Optional[str] = None
-        self.qa: Optional[EocumentQA] = None
+        self.qa: Optional[DocumentQA] = None
         self.landmark_agent = None  # created on first use (loads CLIP and the FAISS indices)
         self.last_upload = []       # PEFs from the most recent upload: what "summarize this" means
         self.media_ctx = None       # the last image/audio/video/link/file, for follow-up questions
@@ -98,7 +98,7 @@ def connect_llm(api_key: str, model: str):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("Loading the embedding model ...")
-    STATE.qa = EocumentQA(STATE.holder, mode="agentic")
+    STATE.qa = DocumentQA(STATE.holder, mode="agentic")
     if PEF_EIR.is_dir() and any(PEF_EIR.glob("*.pdf")):
         print(f"Loading PEFs from {PEF_EIR} ...")
         STATE.qa.add_folder(str(PEF_EIR))
@@ -445,5 +445,6 @@ def favicon():
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("server:app", host="127.0.0.1", port=8000)
+    uvicorn.run("server:app", host="0.0.0.0", port=int(os.environ.get("PORT", "8000")))
+
 
