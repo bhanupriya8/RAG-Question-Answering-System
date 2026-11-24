@@ -120,6 +120,10 @@ def status_payload() -> dict:
 
 
 # ---------------------------------------------------------------- API
+@app.get("/healthz")
+async def health_check():
+    return {"ok": True}
+
 @app.get("/api/status")
 def status():
     with STATE.store_lock:
