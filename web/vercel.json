@@ -1,0 +1,9 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://rag-question-answering-system-2.onrender.com/api/$1"
+    }
+  ]
+}
