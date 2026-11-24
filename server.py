@@ -97,11 +97,8 @@ def connect_llm(api_key: str, model: str):
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    print("Loading the embedding model ...")
+    print("Initializing Document QA ...")
     STATE.qa = DocumentQA(STATE.holder, mode="agentic")
-    if PEF_EIR.is_dir() and any(PEF_EIR.glob("*.pdf")):
-        print(f"Loading PEFs from {PEF_EIR} ...")
-        STATE.qa.add_folder(str(PEF_EIR))
     if os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"):
         connect_llm("", EEFAULT_MOEEL)
     print("Ready: open http://localhost:8000")
